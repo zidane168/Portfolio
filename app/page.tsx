@@ -5,8 +5,7 @@ import SocialSection from "./Component/Page/Social/SocialSection";
 import SkillSection from "./Component/Page/Skill/SkillSection";
 import TitleUI from "./Component/UI/TitleUI";
 import ColorSectorUI from "./Component/UI/ColorSelectorUI";
-
-import React, { useState } from 'react';
+ 
 
 export default function Home() { 
 

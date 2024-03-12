@@ -1,4 +1,4 @@
-export default function TitleUI({ title, bgColor }) {
+export default function TitleUI({ title, bgColor} : { title: string, bgColor: string } ) {
     return (
 
         // #3498db (Belize hole)
@@ -7,7 +7,7 @@ export default function TitleUI({ title, bgColor }) {
         // #e74c3c (Alizarin)
         // #d35400 (pumpkin)
         // #2ecc71 (Emerald)
-        <div className={` bg-[bgColor] w-full rounded-md p-2 text-white`}>
+        <div className={`w-full rounded-md p-2 text-white`}  style={{ backgroundColor: bgColor  }} >
             { title } 
         </div>
     )

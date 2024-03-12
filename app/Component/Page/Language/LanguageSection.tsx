@@ -1,8 +1,12 @@
-const LanguageSection = () => {
+import TitleUI from "../../UI/TitleUI";
+
+const LanguageSection = (  { bgColor } : { bgColor : string } ) => {
     return (
         <div className="text-left">
             <div className="font-bold "> 
-                Languages  
+            
+            <TitleUI title="Languages" bgcolor={ bgColor } />
+
             </div>
             <div className="flex"> 
                 <div className="min-w-[180px]"> English </div>

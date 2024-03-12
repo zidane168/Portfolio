@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function SocialSection() {
     return (
         <div className="flex justify-center space-x-2 mt-[10px]">
-              <div className="transition hover:scale-110"> 
+              <div className="transition hover:scale-125"> 
                 <Link href="https://www.facebook.com/learntechtips168/"  target="_blank"> 
                     <Image
                       src="/facebook.webp"
@@ -16,7 +16,7 @@ export default function SocialSection() {
                 </Link> 
               </div>
 
-              <div className="transition hover:scale-110"> 
+              <div className="transition hover:scale-125"> 
                 <Link href="https://github.com/zidane168/"  target="_blank"> 
                     <Image
                       src="/github.webp"
@@ -28,7 +28,7 @@ export default function SocialSection() {
                 </Link> 
               </div>
 
-              <div className="transition hover:scale-110"> 
+              <div className="transition hover:scale-125"> 
                 <Link href="https://www.linkedin.com/in/lyhuuvi/" target="_blank"> 
                     <Image
                       src="/tiktok.webp"
@@ -40,7 +40,7 @@ export default function SocialSection() {
                 </Link> 
               </div>
 
-              <div className="transition hover:scale-110"> 
+              <div className="transition hover:scale-125"> 
                 <Link href="https://www.youtube.com/@learntechtips3434"  target="_blank"> 
                     <Image
                       src="/youtube.webp"

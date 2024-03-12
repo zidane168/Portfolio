@@ -1,4 +1,4 @@
-export default function ProgressbarUI ({ name, percent, width }) {
+export default function ProgressbarUI ({ name, percent, width } : { name: string, percent: number, width: string }) {
   return (
     <div>
       <div className="flex justify-between mb-1">
