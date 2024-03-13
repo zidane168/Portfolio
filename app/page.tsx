@@ -14,9 +14,9 @@ export default function Home() {
   const color = useStore((state) => state.color);
 
   return (
-    <div className="p-[20px] border-[2px] rounded-lg m-[20px]">
+    <div className={ `p-[20px] border-[2px] rounded-lg m-[20px] `} style={ { borderColor: color, boxShadow: `10px 10px 100px ${color}` } } >
       <div className="flex  space-x-[20px] h-[900px]">
-        <div className="w-[23%] flex-col text-center border-r-[2px] pr-[20px]">
+        <div className="w-[23%] flex-col text-center border-r-[2px] pr-[20px]" style={{ borderRightColor: color }}>
           <div className="flex justify-center">
             <Image
               src="/zidane2.jpg"
@@ -26,10 +26,12 @@ export default function Home() {
               height={100}
             />
           </div>
-          <div className="mt-[10px] font-bold text-blue-700 transition hover:scale-110">
+          <div className="mt-[10px]">
             <TitleUI title="LY HUU VI" bgColor={color} /> 
           </div>
-          <hr className="mt-[20px] mb-[20px]" />
+
+          <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} />
+          
           <div className="text-left">
             <ul className="list-disc">
               <li>Technical Leader (Management) </li>
@@ -39,10 +41,10 @@ export default function Home() {
           </div>
 
           <SocialSection />
-          <hr className="mt-[20px] mb-[20px]" />
-          <LanguageSection />
-          <hr className="mt-[20px] mb-[20px]" />
-          <SkillSection />
+          <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} />
+          <LanguageSection color={ color } />
+          <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} />
+          <SkillSection color={ color } />
         </div>
 
         <div>

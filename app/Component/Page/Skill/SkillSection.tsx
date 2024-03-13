@@ -1,10 +1,12 @@
 import Progressbar from "../../UI/ProgressbarUI";
+import TitleUI from "../../UI/TitleUI";
 
-export default function SkillSection() {
+export default function SkillSection( { color } : { color : string } ) {
   return (
     <div>
-       <Progressbar name="CakePHP" percent={95} width="95%" />
-       <Progressbar name="HTML/CSS/LESS" percent={95} width="95%"/>
+        <TitleUI title="Skills" bgColor={ color } />
+       <Progressbar name="CakePHP" percent={95} width="95%" color={ color } />
+       <Progressbar name="HTML/CSS/LESS" percent={95} width="95%" color={ color } />
     </div>
   );
 }
