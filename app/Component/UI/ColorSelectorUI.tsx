@@ -19,7 +19,7 @@ const ColorSectorUI = () => {
     ]; 
     
     return ( 
-        <div className="flex space-x-2 rounded-md border-[2px] p-6 h-[50px] items-center"> 
+        <div className="flex space-x-2 rounded-md border-[1px] p-8 h-[50px] items-center shadow-lg" style= { { borderColor: c } }> 
           {colors.map((color) => (  
               <div  
                 key={color.index}
