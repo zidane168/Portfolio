@@ -28,6 +28,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="Firebase"  />
         <KeywordUI title="jsdelivr"  />
         <KeywordUI title="Social Login"  />
+        <KeywordUI title="Parallax effect"  />
        </div>
       
     </div>

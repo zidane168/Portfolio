@@ -3,8 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import LanguageSection from "./Component/Page/Language/LanguageSection";
-import SocialSection from "./Component/Page/Social/SocialSection";
-import SkillSection from "./Component/Page/Skill/SkillSection";
+import SocialSection from "./Component/Page/Social/SocialSection"; 
 import TitleUI from "./Component/UI/TitleUI";
 import ColorSectorUI from "./Component/UI/ColorSelectorUI";
 
@@ -12,8 +11,7 @@ import useStore from "./Store/store";
 import MenuSection from "./Component/Page/Menu/MenuSection";
 import IntroduceSection from "./Component/Page/Introduce/IntroduceSection";
 import SkillSection2 from "./Component/Page/Skill/SkillSection2";
-import ProjectSection from "./Component/Page/Project/ProjectSection";
-import ImageCarouselUI from "./Component/UI/ImageCarouselUI";
+import ProjectSection from "./Component/Page/Project/ProjectSection"; 
 
 export default function Home() {
   const color = useStore((state) => state.color);
