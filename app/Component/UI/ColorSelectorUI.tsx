@@ -3,8 +3,9 @@ import useStore from "../../Store/store";
 
 const ColorSectorUI = () => { 
     const setColor = useStore((state) => state.setColor);
+    const c = useStore((state) => state.color);
 
-    const handleColorSelect = ( { color } : { color: string } ) => {
+    const handleColorSelect = ( color: string ) => {    // ko dung destructring vi dung se ko nhan dc bien 
       setColor(color);
     };
     
@@ -15,15 +16,14 @@ const ColorSectorUI = () => {
         { index: 4, name: 'Wisteria',     colorValue: '#8e44ad' },
         { index: 5, name: 'Alizarin',     colorValue: '#e74c3c' },
         { index: 6, name: 'Emerald',      colorValue: '#2ecc71' },
-    ];
-    
+    ]; 
     
     return ( 
         <div className="flex space-x-2 rounded-md border-[2px] p-6 h-[50px] items-center"> 
           {colors.map((color) => (  
               <div  
                 key={color.index}
-                className="w-10 h-10 transition-all rounded-full cursor-pointer hover:scale-125"  
+                className={ `w-10 h-10 transition-all rounded-full cursor-pointer hover:scale-125 ${color.colorValue === c ? "border-solid border-[5px]" : ""}` }
                 onClick={ () => handleColorSelect( color.colorValue )}
                 style={{ backgroundColor: color.colorValue  }} 
                 >   
