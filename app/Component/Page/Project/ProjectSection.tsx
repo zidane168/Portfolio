@@ -13,10 +13,12 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: '/project/ecpark-1.png' },
         { src: '/project/ecpark-2.png' },
         { src: '/project/ecpark-3.png' },
+        { src: '/project/ecpark-4.png' },
       ],
       description: [
         "PHP - MySQL - Cronjob - CrawlData - FireBase - Social Login - NestJS Socket",
         "Use CakePHP 4.2.0",
+        "CURD, Customize View, Responsive, API",
         'Using Goutte/Client "fabpot/goutte": "^4.0" and "voku/simple_html_dom": "^4.8" for crawl data',
         'Using GoogleAPI "google/apiclient": "^2.12.1" for make a social login',
         'Using FirebaseAPI "kreait/firebase-php": "^5.0"',
@@ -39,7 +41,8 @@ const ProjectSection = ({ color }: { color: string }) => {
       ],
       description: [
         "PHP - MySQL 8.0 - FireBase - Google Map",
-        "Use CakePHP 4.2.0",
+        "Use CakePHP 4.4.0",
+        "CURD, Customize View, Responsive, API",
         'Display and use CMS to manage the content of each page', 
       ],
       library: [
@@ -53,12 +56,12 @@ const ProjectSection = ({ color }: { color: string }) => {
       name: "Project for Booking (patient with pet and booking vet times, manage vet time, manage booking conflict), manage administrator information login, role, permissions Sync data from MicrosoftSQL Server to MySQL",
       screenshot: [
         { src: '/project/cityu-1.png' },
-        { src: '/project/cityu-2.png' },
-        { src: '/project/cityu-3.png' },
+        { src: '/project/cityu-2.png' }, 
       ],
       description: [
         "PHP - MySQL 5.7 - MicrosoftSQL Server - Cronjob - Trigger Event - Sync Data - RabbitMQ",
         "Use CakePHP 4.2.0", 
+        "CURD, Customize View, Responsive, API",
         "Cronjob for sync data from Client data",
         "RabbitMQ for trigger Event Created, Updated, Deleted Record on Microsoft Server and sync back to MySQL",
         "Integrated React as frame put on Wordpress webpage",
@@ -67,6 +70,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       library: [
         { src: '/library/cityu-composer-be.json',  name: 'BackEnd' },
         { src: '/library/cityu-docker-compose.yaml',  name: 'Docker' },
+        { src: 'https://app.diagrams.net/#G1zGEwtQrTvM2ze49UEr_7_MY3b5NDHWD4#%7B%22pageId%22%3A%22prtHgNgQTEPvFCAcTncT%22%7D', name: 'Structure(Personal)'},
       ]
     },
 
@@ -75,12 +79,12 @@ const ProjectSection = ({ color }: { color: string }) => {
       name: "Project for Booking, manage holiday booking, booking combined room, single room, rules refund, cancel, book by user and admin, calc expiry point rules, manage users, manage administrator",
       screenshot: [
         { src: '/project/metrosouth-1.png' },
-        { src: '/project/metrosouth-2.png' },
-        { src: '/project/metrosouth-3.png' },
+        { src: '/project/metrosouth-2.png' }, 
       ],
       description: [
         "PHP - MySQL 8.0 - Cronjob",
         "Use CakePHP 4.2.0", 
+        "CURD, Customize View, Responsive, API",
         "Cronjob for calc the expiry point, token",
         "Use Stripe Payment gateway",
       ],
@@ -96,22 +100,43 @@ const ProjectSection = ({ color }: { color: string }) => {
       name: "Project for AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
       screenshot: [
         { src: '/project/vtv-team-1.png' },
-        { src: '/project/vtv-team-2.png' },
-        { src: '/project/vtv-team-3.png' },
+        { src: '/project/vtv-team-2.png' }, 
       ],
       description: [
         "PHP - MySQL - C#, DotNet framework 4.7.2",
-        "PHP Server side: API",
+        "PHP Server side: Restful API",
+        "CURD, Customize View, Responsive, API",
         "PHP Webpage: TailwindCSS, CakePHP, CSS, JS, LESS",
         "Inject DLL, Send Packet",   
+        "RabbitMQ, Ratchet Server",
         "Threading, Async Await, Task, Task.Delay, API, Socket",
         "JWT multiple device login design",
       ],
       library: [
         { src: 'https://tieungaoauto.com/',  name: 'Link URL' },
       ]
-    }, 
+    },  
 
+
+    {
+      title: "DragonFire",
+      name: "Project about management the inventory, the client and user, project about E-commerce, allow admin can configuration and save keyboards to client, management blog, management promotion rules",
+      screenshot: [
+        { src: '/project/dragonfire-1.png' }, 
+        { src: '/project/dragonfire-2.png' }, 
+        { src: '/project/dragonfire-3.png' }, 
+        { src: '/project/dragonfire-4.png' }, 
+      ],
+      description: [
+        "PHP - MySQL 8.0",
+        "Use CakePHP 4.4.0", 
+        "CURD, Customize View, Responsive, API",
+        "Using chartjs to write a dashboard!",
+      ],
+      library: [ 
+        { src: '/library/dragonfire-composer-be.json',  name: 'BackEnd' }, 
+      ]
+    }, 
 
     {
       title: "CidcKids",
@@ -120,6 +145,8 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: '/project/cidckids-1.png' },
         { src: '/project/cidckids-2.png' },
         { src: '/project/cidckids-3.png' },
+        { src: '/project/cidckids-4.png' },
+        { src: '/project/cidckids-5.png' },
       ],
       description: [
         "PHP - MySQL 5.7 - Cronjob",
@@ -131,6 +158,42 @@ const ProjectSection = ({ color }: { color: string }) => {
       library: [
         { src: '/library/cidckids-composer-be.json',  name: 'BackEnd' }, 
         { src: 'https://app.genmymodel.com/personal/projects/_qmnwAPkdEeydvaHhUPK6Jg', name: "Structure (Personal only)"}
+      ]
+    }, 
+
+    {
+      title: "Ibmsm",
+      name: "Project about divination, destiny, design sales course and share Youtube video link if already register, and formula for calculating destiny",
+      screenshot: [
+        { src: '/project/ibmsm-1.png' },
+        { src: '/project/ibmsm-2.png' }, 
+        { src: '/project/ibmsm-3.png' }, 
+      ],
+      description: [
+        "PHP - MySQL 8.0",
+        "Use CakePHP 4.2.0",  
+        "Use Stripe Payment gateway", 
+      ],
+      library: [
+        { src: '/library/ibmsm-composer-be.json',  name: 'BackEnd' }, 
+        { src: '/library/ibmsm-package-fe.json',  name: 'FrontEnd' }, 
+        { src: '/library/ibmsm-Dockerfile',  name: 'DockerFile' }, 
+        { src: '/library/ibmsm-package-fe',  name: 'FrontEnd' },  
+      ]
+    }, 
+
+    {
+      title: "ChungHing",
+      name: "Project about management the sales, the client and the product",
+      screenshot: [
+        { src: '/project/chunghing-1.png' }, 
+      ],
+      description: [
+        "PHP - MySQL 8.0",
+        "Use CakePHP 4.4.0",   
+      ],
+      library: [ 
+       
       ]
     }, 
 
@@ -152,12 +215,13 @@ const ProjectSection = ({ color }: { color: string }) => {
         } )
 
         return (
-            <div key={ index } className="flex md:space-x-6 md:flex-row items-center space-y-4 flex-col p-2 w-fill w-full rounded-md shadow-lg p-4 mb-6">
+            <div key={ index } className="flex md:space-x-6 md:flex-row   space-y-4 flex-col p-2 w-fill w-full rounded-md shadow-lg p-4 mb-6">
                    
                 <div className="rounded-lg p-2" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
                     <ImageSliderUI  src={ src } color={ color } />
                 </div>  
                 <div className="md:w-[70%]">
+                    <TitleUI  title={ value['title'] } bgColor={ color } />
                     <div> { value['name'] } </div>
                     <ul className="list-disc ml-8">
                         { 
@@ -173,7 +237,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
                         {    value['library'].map( (library, index) => {
                               return (
-                                  <Link key={ index } className="transition hover:scale-125" target="_blank" href={ library['src'] }> { library['name'] }  </Link>
+                                  <Link key={ index } className="transition hover:scale-125 underline" target="_blank" href={ library['src'] }> { library['name'] }  </Link>
                               )
                             })
                         }
@@ -184,7 +248,9 @@ const ProjectSection = ({ color }: { color: string }) => {
       } )  
       } 
           
-      <div> Additionally, numerous projects similar to the one mentioned above will not be listed </div>
+      <div> Additionally, numerous projects similar to the one mentioned above will not be listed, detail please 
+        take a look on public repository  <Link className="transition hover:scale-125 underline" href="https://github.com/zidane168/" target="_blank"> GITHUB </Link>  
+      </div>
       
     </div>
   );
@@ -192,23 +258,4 @@ const ProjectSection = ({ color }: { color: string }) => {
 
 export default ProjectSection;
 
-
-
-// <Image
-//                         src={`/project/${value['title']}-1.png`}
-//                         alt={`project thumbnail`}
-//                         width={300}
-//                         height={300} 
-//                         className={` rounded-lg  `}
-//                         style={{
-//                           ...styles.image,
-//                           ...(currentIndex === 0 && styles.active),
-//                         }}
-//                     />
-//                     <Image
-//                         src={`/project/${value['title']}-2.png`}
-//                         alt={`project thumbnail`}
-//                         width={300}
-//                         height={300} 
-//                         className={  `rounded-lg absolute top-0 left-[320px] ` } 
-//                     />
+ 

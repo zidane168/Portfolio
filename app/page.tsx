@@ -41,7 +41,7 @@ export default function Home() {
             <ul className="list-disc ml-6">
               <SlideInLeft> Technical Leader (Management with Flexible/Tough)  </SlideInLeft>  
               <SlideInLeft> Fullstack developer (CakePHP/Twig/NestJS/ORM)  </SlideInLeft>   
-              <SlideInLeft>  AutoGame Developer (C#, ASM, Inject Packet, Obfuscate)  </SlideInLeft>   
+              <SlideInLeft> AutoGame Developer (C#, ASM, Inject Packet, Obfuscate)  </SlideInLeft>   
             </ul>
           </div>
         
