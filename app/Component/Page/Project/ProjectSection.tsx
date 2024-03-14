@@ -155,7 +155,7 @@ const ProjectSection = ({ color }: { color: string }) => {
             <div key={ index } className="flex md:space-x-6 md:flex-row items-center space-y-4 flex-col p-2 w-fill w-full rounded-md shadow-lg p-4 mb-6">
                    
                 <div className="rounded-lg p-2" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
-                    <ImageSliderUI  src={ src } />
+                    <ImageSliderUI  src={ src } color={ color } />
                 </div>  
                 <div className="md:w-[70%]">
                     <div> { value['name'] } </div>
