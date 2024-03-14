@@ -8,14 +8,14 @@ const SlideInLeft = ({ children } : { children : string}) => {
     controls.start({ x: 0, opacity: 1 });
   }, [controls]);
 
-  return (
+  return ( 
     <motion.li
       initial={{ x: -100, opacity: 0 }}
       animate={controls}
       transition={{ duration: 0.5 }}
     >
       {children}
-    </motion.li>
+    </motion.li> 
   );
 };
 

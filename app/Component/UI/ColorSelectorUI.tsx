@@ -1,5 +1,7 @@
-'use client'
+// 'use client'
+
 import useStore from "../../Store/store";
+ 
 
 const ColorSectorUI = () => { 
     const setColor = useStore((state) => state.setColor);
