@@ -9,6 +9,16 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                 Welcome everybody, I have Developer with  { currentYear }   Years of Experience
                 <ul className="list-disc ml-4">
                     <li> Proficient in both game (5+ years) and web development (9+ years), starting from 2009. </li>
+                    <li> 
+                        I have developed a  <span className={ `font-bold text-white  pl-2 pr-2 bg-blue-600` }  >comprehensive CMS-ready base template source code(include Logic + API + Database + MessageQueue + Caching + UI)</span>, meticulously designed with a full suite of UI components 
+                        including advanced upload/download capabilities, export functions, scheduling tools, date pickers, sophisticated combo boxes, 
+                        The dynamic loading of two or more interconnected combo boxes is mutually dependent (AJAX), 
+                        responsive tables, textboxes with validation, and enhanced search, filter, and sorting features. 
+                        The template is engineered with robust workflows, encompassing phone, email, and SMS verification systems, 
+                        JWT authentication, API, Payment initialization, 
+                        social media logins (Google, Facebook), Firebase integration, scheduled cron jobs, 
+                        RabbitMQ initialization, and efficient caching mechanisms, ready for immediate deployment.
+                    </li>
                     <li> Passionate about learning and implementing cutting-edge technologies, with a knack for enhancing existing frameworks. </li>
                     <li> Skilled in client engagement and streamlining app development processes to conserve time and resources. </li>
                     <li> Strong analytical abilities with advanced backend expertise and frontend proficiency.</li>

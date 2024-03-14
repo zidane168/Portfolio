@@ -12,10 +12,10 @@ import MenuSection from "./Component/Page/Menu/MenuSection";
 import IntroduceSection from "./Component/Page/Introduce/IntroduceSection";
 import SkillSection2 from "./Component/Page/Skill/SkillSection2";
 import ProjectSection from "./Component/Page/Project/ProjectSection"; 
+import SlideInLeft from "./Component/Animation/SlideInLeft";
 
 export default function Home() {
-  const color = useStore((state) => state.color);
-
+  const color = useStore((state) => state.color); 
   return (
     <div className={ `p-[20px] border-[2px] rounded-lg m-[20px] `} style={ { borderColor: color, boxShadow: `10px 10px 100px ${color}` } } >
       <div className="text-sm flex flex-col space-y-[20px] lg:flex-row lg:space-x-[20px] h-full">
@@ -37,9 +37,9 @@ export default function Home() {
           
           <div className="text-left">
             <ul className="list-disc ml-6">
-              <li>Technical Leader (Management) </li>
-              <li>Fullstack developer (CakePHP/Twig/NestJS/ORM)</li>
-              <li>AutoGame Developer (C#, ASM, Inject Packet, Obfuscate) </li>
+              <SlideInLeft> Technical Leader (Management)  </SlideInLeft>  
+              <SlideInLeft> Fullstack developer (CakePHP/Twig/NestJS/ORM)  </SlideInLeft>   
+              <SlideInLeft>  AutoGame Developer (C#, ASM, Inject Packet, Obfuscate)  </SlideInLeft>   
             </ul>
           </div>
 

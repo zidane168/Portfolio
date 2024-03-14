@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import SlideInLeft from "../../Animation/SlideInLeft";
 
 export default function SocialSection() {
   return (
     <div className="flex justify-center space-x-2 mt-[10px]">
-     
-      <div className="transition hover:scale-125">
+      
+      <div className="transition hover:scale-125"> 
         <Link href="https://learn-tech-tips.blogspot.com/" target="_blank">
           <Image
             src="/blogger.png"
@@ -15,7 +16,8 @@ export default function SocialSection() {
             height={30}
           />
         </Link>
-      </div>
+      </div> 
+ 
       <div className="transition hover:scale-125">
         <Link href="https://www.facebook.com/learntechtips168/" target="_blank">
           <Image
@@ -26,7 +28,8 @@ export default function SocialSection() {
             height={30}
           />
         </Link>
-      </div>
+      </div> 
+ 
       <div className="transition hover:scale-125">
         <Link href="https://www.codeproject.com/Articles/5366199/How-to-Monitor-Data-Changes-in-SQL-Server-Tables-w" target="_blank">
           <Image
@@ -37,8 +40,9 @@ export default function SocialSection() {
             height={30}
           />
         </Link>
-      </div>
-   
+      </div> 
+
+ 
       <div className="transition hover:scale-125">
         <Link href="https://github.com/zidane168/" target="_blank">
           <Image
@@ -49,7 +53,9 @@ export default function SocialSection() {
             height={30}
           />
         </Link>
-      </div>
+      </div> 
+
+
       <div className="transition hover:scale-125">
         <Link href="https://www.linkedin.com/in/lyhuuvi/" target="_blank">
           <Image
@@ -61,6 +67,7 @@ export default function SocialSection() {
           />
         </Link>
       </div>
+      
       <div className="transition hover:scale-125">
         <Link href="https://www.tiktok.com/@learntechtips" target="_blank">
           <Image

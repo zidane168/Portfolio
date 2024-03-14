@@ -1,3 +1,4 @@
+import SlideInLeft from "../../Animation/SlideInLeft";
 import TitleUI from "../../UI/TitleUI";
 
 const LanguageSection = ({ color }: { color: string }) => {
@@ -7,22 +8,24 @@ const LanguageSection = ({ color }: { color: string }) => {
     <div className="text-left">
       <TitleUI title="Languages" bgColor={color} />
 
-      <div className="flex justify-between">
-        <div > English </div>
-        <div> Professional working proficiency </div>
+      <div className="flex flex-row justify-between lg:flex-col">
+        <div className="font-bold"> English </div>
+        <div>  <SlideInLeft>  Professional working proficiency  </SlideInLeft>  </div> 
       </div>
 
-      <div className="flex justify-between">
-        <div > Chinese (Mandarin) </div> 
-        <div> Native or bilingual proficiency </div>
+      <div className="flex flex-row justify-between lg:flex-col lg:mt-2">
+        <div className="font-bold"> Chinese (Mandarin) </div>
+        <div>  <SlideInLeft> Native or bilingual proficiency </SlideInLeft> </div>
       </div>
-      <div className="flex justify-between">
-        <div>  Chinese (Cantonese) </div>
-        <div> Native or bilingual proficiency </div>
+
+      <div className="flex flex-row justify-between lg:flex-col lg:mt-2">
+        <div className="font-bold"> Chinese (Cantonese) </div>
+        <div>  <SlideInLeft> Native or bilingual proficiency </SlideInLeft> </div>
       </div>
-      <div className="flex justify-between">
-        <div>  Vietnamese </div>
-        <div> Native or bilingual proficiency </div>
+
+      <div className="flex flex-row justify-between lg:flex-col lg:mt-2">
+        <div className="font-bold"> Vietnamese </div>
+        <div> <SlideInLeft>  Native or bilingual proficiency </SlideInLeft> </div>
       </div>
     </div>
   );
