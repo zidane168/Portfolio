@@ -31,6 +31,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="PayPal/PayMe HSBC/Stripe"  /> 
         <KeywordUI title="Firebase (Push Notification)"  />
         <KeywordUI title="Jsdelivr"  />
+        <KeywordUI title="Pagination"  />   
         <KeywordUI title="Social Login"  /> 
         <KeywordUI title="Chat RealTime/Chat Push FireBase"  />
         <KeywordUI title="Parallax effect"  />
