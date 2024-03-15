@@ -17,7 +17,8 @@ const HomeDetailPage: React.FC = () => {
       <div>
         <IntroduceSection color={color} />
       </div>
-      <ProjectSection color={color} />
+      <ProjectSection color={color} /> 
+    
     </div>
   );
 };

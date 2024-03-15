@@ -13,5 +13,4 @@ const MainPage: React.FC = () => {
 };
 export default MainPage;
 
-
-//<PageLayout color={color}>
+ 

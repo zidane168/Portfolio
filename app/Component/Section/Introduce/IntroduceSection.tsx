@@ -2,13 +2,14 @@ import TitleUI from "../../UI/TitleUI";
 
 const IntroduceSection = ( {color} : { color : string } ) => { 
     let currentYear = new Date().getFullYear() - 2009;
+    let experience_web = currentYear - 5;
 
     return (
         <div className=""> 
             <div className="p-4 rounded-md shadow-lg">
-                Welcome everybody, I have Developer with  { currentYear }   Years of Experience
+                Welcome everybody, I have around { currentYear } Years of Experience about web and auto game development
                 <ul className="ml-4 list-disc">
-                    <li> Proficient in both game (5+ years) and web development (9+ years), starting from 2009. </li>
+                    <li> Proficient in both game (5+ years) and web development ({ experience_web }+ years), starting from 2009. </li>
                     <li> 
                         I have developed a  <span className={ `font-bold text-white  pl-2 pr-2 bg-blue-600` }  >comprehensive CMS-ready base template source code(include Logic + API + Database + MessageQueue + Caching + UI)</span>, meticulously designed with a full suite of UI components 
                         including advanced upload/download capabilities, export functions, scheduling tools, date pickers, sophisticated combo boxes, 

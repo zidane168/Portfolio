@@ -115,6 +115,21 @@ const ProjectSection = ({ color }: { color: string }) => {
       ]
     },  
 
+    {
+      title: "TodoListApp",
+      name: "Project about management the Task list from user",
+      video: "https://www.youtube.com/embed/Kwx1BUP1cxM?si=I9Q9_rFGeYXYYqjI",
+      screenshot: [
+        { src: '' }, 
+      ],
+      description: [
+        "NextJS, NestJS, TailWindCSS, Zustand, Axios, MongoDB, JWT",
+      ],
+      library: [ 
+        { src: '/library/todoapp-package-be.json',  name: 'BackEnd' },
+        { src: '/library/todoapp-package-fe.json',  name: 'FrontEnd' },
+      ]
+    }, 
 
     {
       title: "DragonFire",
@@ -215,9 +230,24 @@ const ProjectSection = ({ color }: { color: string }) => {
         return (
             <div key={ index } className="flex flex-col w-full p-2 p-4 mb-6 space-y-4 rounded-md shadow-lg md:space-x-6 md:flex-row w-fill">
                    
-                <div className="p-2 rounded-lg" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
+                { 
+                
+                value['video'] ?  
+                  <div className="p-2 rounded-lg">
+                    
+
+                    <iframe width="300" height="300" src={ value['video'] } title="NextJS NextJS ToDoApp" 
+                        frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen></iframe>
+                  </div>  
+                
+                  : 
+                  
+                  <div className="p-2 rounded-lg" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
                     <ImageSliderUI  src={ src } color={ color } />
-                </div>  
+                  </div>  
+
+                }
                 <div className="md:w-[70%]">
                     <TitleUI  title={ value['title'] } bgColor={ color } />
                     <div> { value['name'] } </div>
@@ -246,8 +276,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       } )  
       } 
           
-      <div> Additionally, numerous projects similar to the one mentioned above will not be listed, detail please 
-        take a look on public repository  <Link className="underline transition hover:scale-125" href="https://github.com/zidane168/" target="_blank"> GITHUB </Link>  
+      <div> For a comprehensive overview of my additional projects, please explore my `public` <Link className="underline transition hover:scale-125" href="https://github.com/zidane168/" target="_blank"> GITHUB</Link> profile. Thank you.
       </div>
       
     </div>

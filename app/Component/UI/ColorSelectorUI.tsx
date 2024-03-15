@@ -13,7 +13,7 @@ const ColorSectorUI = () => {
     
     const colors = [ 
         { index: 1, name: 'Pumpkin',      colorValue: '#d35400' },
-        { index: 2, name: 'Belize hole',  colorValue: '#3498db' },   // '#3498db'
+        { index: 2, name: 'Belize hole',  colorValue: '#3498db' },  
         { index: 3, name: 'Sun flower',   colorValue: '#f1c40f' },
         { index: 4, name: 'Wisteria',     colorValue: '#8e44ad' },
         { index: 5, name: 'Alizarin',     colorValue: '#e74c3c' },

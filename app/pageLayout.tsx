@@ -6,15 +6,21 @@ import SocialSection from "./Component/Section/Social/SocialSection";
 import SkillSection2 from "./Component/Section/Skill/SkillSection2"; 
 import SlideInLeft from "./Component/Animation/SlideInLeft"; 
 import useStore from './Store/store';
-
+import Link from 'next/link';
+import Head from 'next/head';
 
 interface PageLayoutProps { 
   children: React.ReactNode;
 }
 
 const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
-  const color = useStore((state: any) => state.color); 
+  const color = useStore((state: any) => state.color);  
+  const date = new Date();
+  
   return (
+    <Head> 
+      <link href="/favicon.ico" rel="icon" sizes="any" /> 
+    </Head>
     <div className={ `p-[20px] border-[2px] rounded-lg m-[20px] `} style={ { borderColor: color, boxShadow: `10px 10px 100px ${color}` } } >
       <div className="text-sm flex flex-col space-y-[20px] lg:flex-row lg:space-x-[20px] h-full">
          
@@ -40,19 +46,26 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
               <SlideInLeft> Fullstack developer (CakePHP/Twig/NestJS/ORM)  </SlideInLeft>   
               <SlideInLeft> AutoGame Developer (C#, ASM, Inject Packet, Obfuscate)  </SlideInLeft>   
             </ul>
-          </div>
-        
-
+          </div> 
+          
           <SocialSection />
           <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} />
           <LanguageSection color={ color } />
           <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} />
           <SkillSection2 color={ color } />
+
+          <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} />
+          <div className="underline transition hover:scale-125" >
+            <Link target="_blank" href="https://learn-tech-tips.blogspot.com/"> Technical Blog </Link> 
+          </div>
+          <div>
+            Copyright @{ date.getFullYear() } 
+          </div>
         </div> 
 
         <div className="w-[100%] ">
           { children }
-        </div>
+        </div> 
 
       </div>
     </div> 

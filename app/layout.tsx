@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata } from "next"; 
 import "./globals.css";
+import Head from 'next/head';
  
 
 export const metadata: Metadata = {
-  title: "Vi Ly Huu Portfolio",
+  title: "Vi Ly Huu's Portfolio",
   description: "This is my Portfolio CV",
 };
 
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en"> 
       <body>{children}</body>
     </html>
   );
