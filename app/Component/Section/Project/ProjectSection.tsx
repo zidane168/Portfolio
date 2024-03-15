@@ -200,6 +200,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       name: "Project about management the sales, the client and the product",
       screenshot: [
         { src: '/project/chunghing-1.png' }, 
+        { src: '/project/chunghing-2.png' }, 
       ],
       description: [
         "PHP - MySQL 8.0",
