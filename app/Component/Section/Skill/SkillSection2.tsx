@@ -36,7 +36,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title=""  />   
         <KeywordUI title="Chat RealTime/Chat Push FireBase"  />
         <KeywordUI title="Parallax effect"  />
-        <KeywordUI title="Microservice/Blockchain/Dart/Flutter (Knowledge)"  />
+        <KeywordUI title="Microservice/Blockchain/Dart/Flutter/Machine Learning (Knowledge)"  />
         <KeywordUI title="Figma/Photoshop/Awesome Screen Record"  />
        </div>
       
