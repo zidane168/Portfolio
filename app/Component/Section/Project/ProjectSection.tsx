@@ -1,7 +1,5 @@
-import Link from "next/link";
-import Image from "next/image";
-import TitleUI from "../../UI/TitleUI"; 
-import { useEffect, useState } from "react";
+import Link from "next/link"; 
+import TitleUI from "../../UI/TitleUI";  
 import ImageSliderUI from "../../UI/ImageSliderUI";
  
 const ProjectSection = ({ color }: { color: string }) => {
@@ -178,7 +176,7 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: '/library/ibmsm-composer-be.json',  name: 'BackEnd' }, 
         { src: '/library/ibmsm-package-fe.json',  name: 'FrontEnd' }, 
         { src: '/library/ibmsm-Dockerfile',  name: 'DockerFile' }, 
-        { src: '/library/ibmsm-package-fe',  name: 'FrontEnd' },  
+        { src: '/library/ibmsm-package-fe.json',  name: 'FrontEnd' },  
       ]
     }, 
 
@@ -215,15 +213,15 @@ const ProjectSection = ({ color }: { color: string }) => {
         } )
 
         return (
-            <div key={ index } className="flex md:space-x-6 md:flex-row   space-y-4 flex-col p-2 w-fill w-full rounded-md shadow-lg p-4 mb-6">
+            <div key={ index } className="flex flex-col w-full p-2 p-4 mb-6 space-y-4 rounded-md shadow-lg md:space-x-6 md:flex-row w-fill">
                    
-                <div className="rounded-lg p-2" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
+                <div className="p-2 rounded-lg" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
                     <ImageSliderUI  src={ src } color={ color } />
                 </div>  
                 <div className="md:w-[70%]">
                     <TitleUI  title={ value['title'] } bgColor={ color } />
                     <div> { value['name'] } </div>
-                    <ul className="list-disc ml-8">
+                    <ul className="ml-8 list-disc">
                         { 
                             value['description'].map( (description, index) => { 
                                 return (
@@ -237,7 +235,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
                         {    value['library'].map( (library, index) => {
                               return (
-                                  <Link key={ index } className="transition hover:scale-125 underline" target="_blank" href={ library['src'] }> { library['name'] }  </Link>
+                                  <Link key={ index } className="underline transition hover:scale-125" target="_blank" href={ library['src'] }> { library['name'] }  </Link>
                               )
                             })
                         }
@@ -249,7 +247,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       } 
           
       <div> Additionally, numerous projects similar to the one mentioned above will not be listed, detail please 
-        take a look on public repository  <Link className="transition hover:scale-125 underline" href="https://github.com/zidane168/" target="_blank"> GITHUB </Link>  
+        take a look on public repository  <Link className="underline transition hover:scale-125" href="https://github.com/zidane168/" target="_blank"> GITHUB </Link>  
       </div>
       
     </div>

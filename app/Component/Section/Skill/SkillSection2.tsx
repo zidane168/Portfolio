@@ -24,7 +24,8 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="JWT/Multiple Device Login"    />
         <KeywordUI title="RabbitMQ"      /> 
         <KeywordUI title="Kfaka"     /> 
-        <KeywordUI title="AlibaCloud"     />
+        <KeywordUI title="I18n/Multiple Language"     /> 
+        <KeywordUI title="Alibaba Cloud"     />
         <KeywordUI title="Nginx"  /> 
         <KeywordUI title="ChartJS"  />
         <KeywordUI title="PayPal/PayMe HSBC/Stripe"  /> 
