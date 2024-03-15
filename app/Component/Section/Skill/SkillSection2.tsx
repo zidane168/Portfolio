@@ -33,9 +33,10 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="Jsdelivr"  />
         <KeywordUI title="Pagination"  />   
         <KeywordUI title="Social Login"  /> 
+        <KeywordUI title=""  />   
         <KeywordUI title="Chat RealTime/Chat Push FireBase"  />
         <KeywordUI title="Parallax effect"  />
-        <KeywordUI title="Microservice/Blockchain (Knowledge)"  />
+        <KeywordUI title="Microservice/Blockchain/Flutter (Knowledge)"  />
         <KeywordUI title="Figma/Photoshop/Awesome Screen Record"  />
        </div>
       
