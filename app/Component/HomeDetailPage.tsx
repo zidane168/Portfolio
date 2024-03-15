@@ -5,12 +5,9 @@ import ColorSectorUI from "@/app/Component/UI/ColorSelectorUI";
 import React from "react";
 import useStore from "@/app/Store/store";
 
-interface PageLayoutProps {
-  color: string;
-}
-
-const HomeDetailPage: React.FC<PageLayoutProps> = () => {
-  const color = useStore((state) => state.color);
+  
+const HomeDetailPage: React.FC = () => {
+  const color = useStore((state : any) => state.color);
   return (
     <div>
       <div className="flex items-center space-x-2">

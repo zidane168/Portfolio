@@ -1,14 +1,12 @@
 'use client'
 import React from 'react'; 
-import PageLayout from '../pageLayout';
-import useStore from '../Store/store'; 
+import PageLayout from '../pageLayout'; 
 import GuideDetailPage from '../Component/GuideDetailPage';
 
-const Guideline: React.FC = () => {
-  const color = useStore((state) => state.color); 
+const Guideline: React.FC = () => { 
 
   return ( 
-    <PageLayout color={color}>
+    <PageLayout>
       <GuideDetailPage /> 
     </PageLayout>
   );

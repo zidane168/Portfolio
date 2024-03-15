@@ -4,8 +4,8 @@ import useStore from "../../Store/store";
  
 
 const ColorSectorUI = () => { 
-    const setColor = useStore((state) => state.setColor);
-    const c = useStore((state) => state.color);
+    const setColor = useStore((state: any) => state.setColor);
+    const c = useStore((state: any) => state.color);
 
     const handleColorSelect = ( color: string ) => {    // ko dung destructring vi dung se ko nhan dc bien 
       setColor(color);

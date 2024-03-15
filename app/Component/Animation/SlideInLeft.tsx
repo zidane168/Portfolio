@@ -1,7 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 
-const SlideInLeft = ({ children } : { children : string}) => {
+const SlideInLeft = ({ children } : { children : string[] | JSX.Element | string }) => {
   const controls = useAnimation();
 
   useEffect(() => {

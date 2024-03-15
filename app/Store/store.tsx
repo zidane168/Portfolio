@@ -1,17 +1,12 @@
 import {create} from 'zustand';
 import { persist } from 'zustand/middleware';
 
-// const useStore = create((set) => ({
-    
-//     color: '#3498db',
-//     setColor: (value: string) => set({ color: value}),
-// })); 
-
+ 
 const useStore = create(
     persist(        // use persist de dong bo voi cac page khac
       (set) => ({
         color: '#3498db',
-        setColor: (value) => set({ color: value }),
+        setColor: (value: string) => set({ color: value }),
       }),
       {
         name: 'my-color', // Key to use for storing the state in local storage
@@ -20,4 +15,11 @@ const useStore = create(
   );
 
 
-export default useStore;
+export default useStore; 
+
+
+// const useStore = create((set) => ({
+    
+//     color: '#3498db',
+//     setColor: (value: string) => set({ color: value}),
+// })); 
