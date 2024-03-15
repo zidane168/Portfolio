@@ -5,9 +5,9 @@ const IntroduceSection = ( {color} : { color : string } ) => {
 
     return (
         <div className=""> 
-            <div className="rounded-md shadow-lg p-4">
+            <div className="p-4 rounded-md shadow-lg">
                 Welcome everybody, I have Developer with  { currentYear }   Years of Experience
-                <ul className="list-disc ml-4">
+                <ul className="ml-4 list-disc">
                     <li> Proficient in both game (5+ years) and web development (9+ years), starting from 2009. </li>
                     <li> 
                         I have developed a  <span className={ `font-bold text-white  pl-2 pr-2 bg-blue-600` }  >comprehensive CMS-ready base template source code(include Logic + API + Database + MessageQueue + Caching + UI)</span>, meticulously designed with a full suite of UI components 

@@ -2,13 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import TitleUI from './Component/UI/TitleUI';
 import LanguageSection from "./Component/Section/Language/LanguageSection";
-import SocialSection from "./Component/Section/Social/SocialSection";  
-import ColorSectorUI from "./Component/UI/ColorSelectorUI";
- 
-import MenuSection from "./Component/Section/Menu/MenuSection";
-import IntroduceSection from "./Component/Section/Introduce/IntroduceSection";
-import SkillSection2 from "./Component/Section/Skill/SkillSection2";
-import ProjectSection from "./Component/Section/Project/ProjectSection"; 
+import SocialSection from "./Component/Section/Social/SocialSection";   
+import SkillSection2 from "./Component/Section/Skill/SkillSection2"; 
 import SlideInLeft from "./Component/Animation/SlideInLeft"; 
 import useStore from './Store/store';
 
