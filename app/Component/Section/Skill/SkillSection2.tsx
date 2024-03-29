@@ -7,10 +7,10 @@ export default function SkillSection2( { color } : { color : string } ) {
        <TitleUI title="Skill Set" bgColor={ color } /> 
 
        <div className="w-full">
-        <KeywordUI title="PHP/CakePHP/Twig"  />
+        <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron"  />
         <KeywordUI title="MySQL/Postgres DB/MongoDB/Microsoft SQL"     />
         <KeywordUI title="HTML/CSS/LESS/Silder/Animation/WOW"     /> 
-        <KeywordUI title="Tailwind CSS/Bootstrap"  />
+        <KeywordUI title="Tailwind CSS/Bootstrap/ResetCSS/Pagination"  />
         <KeywordUI title="Docker/docker-compose/portainer.io"    />
         <KeywordUI title="NextJS/Axios/Authentication/Zustand State Management"   />  
         <KeywordUI title="Javascript/TypeScript"      /> 
@@ -28,10 +28,8 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="ChartJS"  />
         <KeywordUI title="PayPal/PayMe HSBC/Stripe"  /> 
         <KeywordUI title="Firebase (Push Notification)"  />
-        <KeywordUI title="Jsdelivr"  />
-        <KeywordUI title="Pagination"  />   
-        <KeywordUI title="Social Login"  /> 
-        <KeywordUI title="ResetCSS"  />   
+        <KeywordUI title="Jsdelivr"  /> 
+        <KeywordUI title="Social Login"  />  
         <KeywordUI title="Chat RealTime/Chat Push FireBase"  />
         <KeywordUI title="Parallax effect"  />
         <KeywordUI title="Microservice/Blockchain/Dart/Flutter/Machine Learning (Knowledge)"  />
