@@ -7,10 +7,10 @@ export default function SkillSection2( { color } : { color : string } ) {
        <TitleUI title="Skill Set" bgColor={ color } /> 
 
        <div className="w-full">
-        <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron"  />
+        <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron/Pagination/Router"  />
         <KeywordUI title="MySQL/Postgres DB/MongoDB/Microsoft SQL"     />
         <KeywordUI title="HTML/CSS/LESS/Silder/Animation/WOW"     /> 
-        <KeywordUI title="Tailwind CSS/Bootstrap/ResetCSS/Pagination"  />
+        <KeywordUI title="Tailwind CSS/Bootstrap/ResetCSS"  />
         <KeywordUI title="Docker/docker-compose/portainer.io"    />
         <KeywordUI title="NextJS/Axios/Authentication/Zustand State Management"   />  
         <KeywordUI title="Javascript/TypeScript"      /> 
