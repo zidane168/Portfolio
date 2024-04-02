@@ -26,6 +26,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="Alibaba Cloud"     />
         <KeywordUI title="Nginx"  /> 
         <KeywordUI title="ChartJS"  />
+        <KeywordUI title="Python/Crawl"  />
         <KeywordUI title="PayPal/PayMe HSBC/Stripe"  /> 
         <KeywordUI title="Firebase (Push Notification)"  />
         <KeywordUI title="Jsdelivr"  /> 
