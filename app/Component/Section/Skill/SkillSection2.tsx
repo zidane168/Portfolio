@@ -7,7 +7,7 @@ export default function SkillSection2( { color } : { color : string } ) {
        <TitleUI title="Skill Set" bgColor={ color } /> 
 
        <div className="w-full">
-        <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron/Pagination/Router/Gregwar-Captcha"  />
+        <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron/Pagination/Router/Gregwar-Captcha/Google map/Google reCAPTCHA"  />
         <KeywordUI title="MySQL/Postgres DB/MongoDB/Microsoft SQL"     />
         <KeywordUI title="HTML/CSS/LESS/Slider/Animation/WOW"     /> 
         <KeywordUI title="Tailwind CSS/Bootstrap/ResetCSS"  />
@@ -29,10 +29,10 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="Nginx"  /> 
         <KeywordUI title="ChartJS"  />
         <KeywordUI title="Python/Crawl"  />
-        <KeywordUI title="PayPal/PayMe HSBC/Stripe"  /> 
+        <KeywordUI title="PayPal/PayMe HSBC/Stripe/Asia PayDollar/HangSeng-NTT Data"  /> 
         <KeywordUI title="Firebase (Push Notification)"  />
         <KeywordUI title="Jsdelivr"  /> 
-        <KeywordUI title="Social Login"  />  
+        <KeywordUI title="Social Login"  />   
         <KeywordUI title="Chat RealTime/Chat Push FireBase"  />
         <KeywordUI title="Parallax effect"  />
         <KeywordUI title="Microservice/Blockchain/Dart/Flutter/Machine Learning (Knowledge)"  />
