@@ -14,7 +14,8 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="CKeditor/CKfinder/Quill Text Editor Integrated"  /> 
         <KeywordUI title="Docker/docker-compose/portainer.io"    />
         <KeywordUI title="NextJS/Axios/Authentication/Zustand State Management"   />  
-        <KeywordUI title="Javascript/TypeScript"      /> 
+        <KeywordUI title="Javascript/TypeScript"      />  
+        <KeywordUI title="Apply AI/ChatGPT in coding" />
         <KeywordUI title="NodeJS/NestJS/ORM"    />
         <KeywordUI title="Ratchet Server/Web Socket"   />  
         <KeywordUI title="C# Packet, Assembly language, Memory, Process - AutoGame"     /> 
@@ -22,7 +23,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="C# Net-Web"    />
         <KeywordUI title="OOP"    />
         <KeywordUI title="JWT/Multiple Device Login"    />
-        <KeywordUI title="RabbitMQ/Kfaka"      />  
+        <KeywordUI title="RabbitMQ/Kafka"      />  
         <KeywordUI title="I18n/Multiple Language"     /> 
         <KeywordUI title="Alibaba Cloud"     />
         <KeywordUI title="Nginx"  /> 
