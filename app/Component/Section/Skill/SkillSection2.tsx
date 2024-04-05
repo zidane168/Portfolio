@@ -9,14 +9,14 @@ export default function SkillSection2( { color } : { color : string } ) {
        <div className="w-full">
         <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron/Pagination/Router/Gregwar-Captcha"  />
         <KeywordUI title="MySQL/Postgres DB/MongoDB/Microsoft SQL"     />
-        <KeywordUI title="HTML/CSS/LESS/Silder/Animation/WOW"     /> 
+        <KeywordUI title="HTML/CSS/LESS/Slider/Animation/WOW"     /> 
         <KeywordUI title="Tailwind CSS/Bootstrap/ResetCSS"  />
         <KeywordUI title="CKeditor/CKfinder/Quill Text Editor Integrated"  /> 
         <KeywordUI title="Docker/docker-compose/portainer.io"    />
         <KeywordUI title="NextJS/Axios/Authentication/Zustand State Management"   />  
         <KeywordUI title="Javascript/TypeScript"      />  
         <KeywordUI title="Apply AI/ChatGPT in coding" />
-        <KeywordUI title="NodeJS/NestJS/ORM"    />
+        <KeywordUI title="NodeJS/NestJS/TypeORM"    />
         <KeywordUI title="Ratchet Server/Web Socket"   />  
         <KeywordUI title="C# Packet, Assembly language, Memory, Process - AutoGame"     /> 
         <KeywordUI title="C# Obfuscation/Anti Debug/Anti Dump"  />
