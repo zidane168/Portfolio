@@ -19,7 +19,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="NodeJS/NestJS/ORM"    />
         <KeywordUI title="Ratchet Server/Web Socket"   />  
         <KeywordUI title="C# Packet, Assembly language, Memory, Process - AutoGame"     /> 
-        <KeywordUI title="C# obfuscation"  />
+        <KeywordUI title="C# Obfuscation/Anti Debug/Anti Dump"  />
         <KeywordUI title="C# Net-Web"    />
         <KeywordUI title="OOP"    />
         <KeywordUI title="JWT/Multiple Device Login"    />
