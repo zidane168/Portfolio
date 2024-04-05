@@ -18,9 +18,9 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="Apply AI/ChatGPT in coding" />
         <KeywordUI title="NodeJS/NestJS/TypeORM"    />
         <KeywordUI title="Ratchet Server/Web Socket"   />  
-        <KeywordUI title="C# Packet, Assembly language, Memory, Process - AutoGame"     /> 
+        <KeywordUI title="C# Packet, Assembly language, Memory, Process - AutoGame/"     /> 
         <KeywordUI title="C# Obfuscation/Anti Debug/Anti Dump"  />
-        <KeywordUI title="C# Net-Web"    />
+        <KeywordUI title="C# Net-Web/Async/Await/"    />
         <KeywordUI title="OOP"    />
         <KeywordUI title="JWT/Multiple Device Login"    />
         <KeywordUI title="RabbitMQ/Kafka"      />  
