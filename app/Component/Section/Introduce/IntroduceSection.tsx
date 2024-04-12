@@ -13,7 +13,7 @@ const IntroduceSection = ( {color} : { color : string } ) => {
 
                     <li>
                         I wear two hats in my role: Solution Architect and Software Architect. 
-                        As a Solution Architect: I propose high-level solutions, providing solutions and technology recommendations to the team. 
+                        As a Solution Architect: I propose high-level solutions, providing solutions and technology recommendations to the team, Layered Architecture, ... 
                         Then, as a Software Architect, I guide the team in turning those solutions into reality. 
                         It’s a mix of vision and hands-on execution!
                     </li>
