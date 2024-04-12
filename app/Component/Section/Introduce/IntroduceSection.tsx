@@ -10,6 +10,13 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                 Welcome everybody, I have around { currentYear } Years of Experience about web and auto game development
                 <ul className="ml-4 list-disc">
                     <li> Proficient in both game (5+ years) and web development ({ experience_web }+ years), starting from 2009. </li>
+
+                    <li>
+                        I wear two hats in my role: Solution Architect and Software Architect. 
+                        As a Solution Architect: I propose high-level solutions, providing solutions and technology recommendations to the team. 
+                        Then, as a Software Architect, I guide the team in turning those solutions into reality. 
+                        It’s a mix of vision and hands-on execution!
+                    </li>
                     <li> 
                         I have developed a  <span className={ `font-bold text-white  pl-2 pr-2 bg-blue-600` }  >comprehensive CMS-ready base template source code(include Logic + API + Database + MessageQueue + Caching + UI)</span>, meticulously designed with a full suite of UI components 
                         including advanced upload/download capabilities, export functions, scheduling tools, date pickers, sophisticated combo boxes, 
