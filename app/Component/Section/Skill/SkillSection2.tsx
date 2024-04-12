@@ -37,6 +37,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="Parallax effect"  />
         <KeywordUI title="Microservice/Blockchain/Dart/Flutter/Machine Learning (Knowledge)"  />
         <KeywordUI title="Figma/Photoshop/Awesome Screen Record"  />
+        <KeywordUI title="CAP (Consistency/Availability/Partition Tolerance)"  />
        </div>
       
     </div>
