@@ -26,7 +26,7 @@ export default function SkillSection2( { color } : { color : string } ) {
         <KeywordUI title="RabbitMQ/Kafka"      />  
         <KeywordUI title="I18n/Multiple Language"     /> 
         <KeywordUI title="Alibaba Cloud"     />
-        <KeywordUI title="Nginx"  /> 
+        <KeywordUI title="Nginx as Load balancer/upstream/round robin/ip_hash/least_conn/ "  /> 
         <KeywordUI title="ChartJS"  />
         <KeywordUI title="Python/Crawl"  />
         <KeywordUI title="PayPal/PayMe HSBC/Stripe/Asia PayDollar/HangSeng-NTT Data"  /> 
