@@ -1,6 +1,6 @@
 import Link from "next/link"; 
 import TitleUI from "../../UI/TitleUI";  
-import ImageSliderUI from "../../UI/ImageSliderUI";
+import ImageSliderUI from "../../UI/ImageSliderUI"; 
  
 const ProjectSection = ({ color }: { color: string }) => {
   const projects = [ 
@@ -270,7 +270,7 @@ const ProjectSection = ({ color }: { color: string }) => {
                 <div className="md:w-[70%]">
                     <TitleUI  title={ value['title'] } bgColor={ color } /> 
                     <div className="px-4">
-                      <div dangerouslySetInnerHTML={{ __html: value['role'] }}></div>
+                      <div dangerouslySetInnerHTML={{ __html: value['role'] || '' }}></div>
                       <div> { value['name'] } </div>
                       <ul className="ml-8 list-disc">
                           { 
