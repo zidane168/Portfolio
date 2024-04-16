@@ -4,6 +4,29 @@ import ImageSliderUI from "../../UI/ImageSliderUI";
  
 const ProjectSection = ({ color }: { color: string }) => {
   const projects = [ 
+ 
+    {
+      title: "VTV-Team", 
+      name: "Co-Founder at https://tieungaoauto.com AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
+      screenshot: [
+        { src: '/project/vtv-team-1.png' },
+        { src: '/project/vtv-team-2.png' }, 
+      ],
+      description: [
+        "PHP - MySQL - C#, DotNet framework 4.7.2",
+        "PHP Server side: Restful API",
+        "CURD, Customize View, Responsive, API",
+        "PHP Webpage: TailwindCSS, CakePHP, CSS, JS, LESS",
+        "Inject DLL, Send Packet, ASM Injection",   
+        "RabbitMQ, Ratchet Server",
+        "Threading, Async Await, Task, Task.Delay, API, Socket",
+        "JWT multiple device login design",
+      ],
+      library: [
+        { src: 'https://tieungaoauto.com/',  name: 'Link URL' },
+      ]
+    },  
+
     {
       title: "Ecpark",
       name: "Project for Crawling data and social login, manage  user's information, manage administrator information login, role, permissions",
@@ -93,27 +116,6 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
 
 
-    {
-      title: "VTV-Team",
-      name: "Project for AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
-      screenshot: [
-        { src: '/project/vtv-team-1.png' },
-        { src: '/project/vtv-team-2.png' }, 
-      ],
-      description: [
-        "PHP - MySQL - C#, DotNet framework 4.7.2",
-        "PHP Server side: Restful API",
-        "CURD, Customize View, Responsive, API",
-        "PHP Webpage: TailwindCSS, CakePHP, CSS, JS, LESS",
-        "Inject DLL, Send Packet",   
-        "RabbitMQ, Ratchet Server",
-        "Threading, Async Await, Task, Task.Delay, API, Socket",
-        "JWT multiple device login design",
-      ],
-      library: [
-        { src: 'https://tieungaoauto.com/',  name: 'Link URL' },
-      ]
-    },  
 
     {
       title: "TodoListApp",
