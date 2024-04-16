@@ -6,8 +6,28 @@ const ProjectSection = ({ color }: { color: string }) => {
   const projects = [ 
  
     {
-      title: "VTV-Team", 
-      name: "Co-Founder at https://tieungaoauto.com AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
+      title: "Webzone Tech Tips Blogs", 
+      role: "Author's Technical blog <span class='bg-sky-600 text-white px-2' ><a class='underline' href='https://learn-tech-tips.blogspot.com/'>   https://learn-tech-tips.blogspot.com/ </a>  </span>  ",
+      name: "Feel free to explore the blog at Learn-Tech-Tips for valuable insights and knowledge, This blog covers a wide range of web development topics, including Next.js, NestJS, CakePHP, and other frameworks. It delves into subjects like RabbitMQ, Apache Kafka, HTML, CSS, Photoshop, and Office 365. The blog aims to help readers build amazing websites using modern technologies and best practices",
+      screenshot: [
+        { src: '/project/webzone-1.png' },
+        { src: '/project/webzone-2.png' }, 
+        { src: '/project/webzone-3.png' },
+        { src: '/project/webzone-4.png' }, 
+      ],
+      description: [
+        "Blogspot", 
+        "CSS, TailwindCSS, js", 
+      ],
+      library: [
+        { src: 'https://learn-tech-tips.blogspot.com/',  name: 'Link URL' },
+      ]
+    },  
+
+    {
+      title: "VTV Team AutoPlay", 
+      role: "Co-Founder at <span class='bg-sky-600 text-white px-2 '> <a href='https://tieungaoauto.com'> https://tieungaoauto.com </a> </span>",
+      name: "AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
       screenshot: [
         { src: '/project/vtv-team-1.png' },
         { src: '/project/vtv-team-2.png' }, 
@@ -26,6 +46,8 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: 'https://tieungaoauto.com/',  name: 'Link URL' },
       ]
     },  
+
+    
 
     {
       title: "Ecpark",
@@ -114,9 +136,7 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: '/library/metrosouth-package-fe.json',  name: 'FrontEnd' },
       ]
     }, 
-
-
-
+ 
     {
       title: "TodoListApp",
       name: "Project about management the Task list from user",
@@ -208,13 +228,10 @@ const ProjectSection = ({ color }: { color: string }) => {
         "PHP - MySQL 8.0",
         "Use CakePHP 4.4.0",   
       ],
-      library: [ 
-       
+      library: [  
       ]
-    }, 
-
-  ];
-  
+    },  
+  ]; 
 
   return (
     <div className="p-2 shadow-lg mt-[10px] rounded-md max-h-full p-[20px]">
@@ -223,7 +240,6 @@ const ProjectSection = ({ color }: { color: string }) => {
       </div>
 
       { 
-      
       projects.map( (value, index) => { 
         let src: string[] = [];
         value['screenshot']?.map( (screenshot, index) => { 
@@ -252,26 +268,29 @@ const ProjectSection = ({ color }: { color: string }) => {
 
                 }
                 <div className="md:w-[70%]">
-                    <TitleUI  title={ value['title'] } bgColor={ color } />
-                    <div> { value['name'] } </div>
-                    <ul className="ml-8 list-disc">
-                        { 
-                            value['description'].map( (description, index) => { 
-                                return (
-                                    <li key={ index }> { description }  </li>
-                                )
-                            }) 
-                        }  
-                    </ul>  
-                    <div className="flex justify-around">
-                        {  (value['library'].length > 0)  ? ( <div> --- Here are details: </div>) : null }
+                    <TitleUI  title={ value['title'] } bgColor={ color } /> 
+                    <div className="px-4">
+                      <div dangerouslySetInnerHTML={{ __html: value['role'] }}></div>
+                      <div> { value['name'] } </div>
+                      <ul className="ml-8 list-disc">
+                          { 
+                              value['description'].map( (description, index) => { 
+                                  return (
+                                      <li key={ index }> { description }  </li>
+                                  )
+                              }) 
+                          }  
+                      </ul>  
+                      <div className="flex justify-around">
+                          {  (value['library'].length > 0)  ? ( <div> --- Here are details: </div>) : null }
 
-                        {    value['library'].map( (library, index) => {
-                              return (
-                                  <Link key={ index } className="underline transition hover:scale-125" target="_blank" href={ library['src'] }> { library['name'] }  </Link>
-                              )
-                            })
-                        }
+                          {    value['library'].map( (library, index) => {
+                                return (
+                                    <Link key={ index } className="underline transition hover:scale-125" target="_blank" href={ library['src'] }> { library['name'] }  </Link>
+                                )
+                              })
+                          }
+                      </div>
                     </div>
                 </div>
             </div>
