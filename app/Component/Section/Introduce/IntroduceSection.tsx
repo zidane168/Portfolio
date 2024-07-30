@@ -1,5 +1,3 @@
-import TitleUI from "../../UI/TitleUI";
-
 const IntroduceSection = ( {color} : { color : string } ) => { 
     let currentYear = new Date().getFullYear() - 2009;
     let experience_web = currentYear - 5;
@@ -21,7 +19,7 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                         I have developed a  <span className={ `font-bold text-white  pl-2 pr-2 bg-blue-600` }  >comprehensive CMS-ready base template source code(include Logic + API + Database + MessageQueue + Caching + UI)</span>, meticulously designed with a full suite of UI components 
                         including advanced upload/download capabilities, export functions, scheduling tools, date pickers, sophisticated combo boxes, 
                         The dynamic loading of two or more interconnected combo boxes is mutually dependent (AJAX), 
-                        responsive tables, textboxes with validation, and enhanced search, filter, and sorting features. 
+                        responsive tables, text boxes with validation, and enhanced search, filter, and sorting features. 
                         The template is engineered with robust workflows, encompassing phone, email, and SMS verification systems, 
                         JWT authentication, API, Payment initialization, 
                         social media logins (Google, Facebook), Firebase integration, scheduled cron jobs, 
@@ -40,12 +38,19 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                     <li> Leadership experience in managing and mentoring a team.</li>
                     <li> Balance and understand when to be flexible and tough in management </li>
                     <li> Proficient in .NET code obfuscation and reverse engineering, understanding of Assembly language. </li>
+                    <li> Experienced build AutoPlay Game (Hook, Auto restore hp, mp, Auto farm, Auto buy/sell items ...) </li>
                     <li> Capable of creating multilingual web applications with PHP and CakePHP frameworks, and experienced in Linux shell scripting. </li>
                     <li> Familiar with RabbitMQ for asynchronous operations and proficient in graphic design and editing with Photoshop and Figma. </li>
                     <li> Effective communicator in both English and Chinese (Cantonese/Mandarin), highly responsible, detail-oriented, and adaptable. </li>
+                    <li> My contribute: <a href="https://packagist.org/packages/learntechtips/cakephp-bake-zidane" className={ `font-bold text-white  pl-1 pr-2 bg-blue-600` }>  packagist.org - learntechtips - cakephp-bake-zidane </a> </li>
+
+                   
                 </ul>  
             </div>
-            <div> </div>
+            <div className='ml-8'> 
+                <div className="italic">This source code is hosting on <a href="https://vercel.com/"> vercel </a>. Many thanks!!! 
+            </div>
+            </div>
         </div>
     )
 }

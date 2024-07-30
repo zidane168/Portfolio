@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: "Vi Ly Huu's Portfolio",
-  description: "This is my Portfolio CV!!!",
+  description: "This is my Portfolio",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en"> 
       <Head>
-        <Link ref="icon" href="/myfavicon.ico"/>
+        <Link ref="icon" href="/favicon.ico"/>
       </Head>
       <body>{children}</body>
     </html>
