@@ -11,7 +11,7 @@ const GuideDetailPage: React.FC = () => {
         <div> Guideline </div>
         <div className="transition hover:scale-125">
           <Link href="/">
-            <Image src="/back.png" width={50} height={50} alt="back" />{" "}
+            <Image src="/previous.png" width={50} height={50} alt="previous" />{" "}
           </Link>{" "}
         </div>
       </div>

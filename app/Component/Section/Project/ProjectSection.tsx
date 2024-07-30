@@ -298,9 +298,11 @@ const ProjectSection = ({ color }: { color: string }) => {
       } )  
       } 
           
-      <div> For a comprehensive overview of my additional projects, please explore my `public` <Link className="underline transition hover:scale-125" href="https://github.com/zidane168/" target="_blank"> GITHUB</Link> profile. Thank you.
+      <div> For a comprehensive overview of my additional projects, please explore my `public` <Link className="underline" href="https://github.com/zidane168/" target="_blank"> GITHUB</Link> profile. Thank you.
       </div>
-      
+      <div> This project hosted by  <Link className="underline" href="https://vercel.com/" target="_blank">vercel</Link> . Thank you Vercel.
+      </div>
+
     </div>
   );
 };

@@ -6,10 +6,11 @@ var IntroduceSection = function (_a) {
     var experience_web = currentYear - 5;
     return (React.createElement("div", { className: "" },
         React.createElement("div", { className: "p-4 rounded-md shadow-lg" },
-            "Welcome everybody, I have around ",
-            currentYear,
-            " Years of Experience about web and auto game development",
-            React.createElement("ul", { className: "ml-4 list-disc" },
+            React.createElement("div", { className: "text-lg" },
+                "Welcome everybody, I am Zidane, I have ",
+                currentYear,
+                " Years of Experience about web and auto game development"),
+            React.createElement("ul", { className: "mt-6 ml-6 leading-6 list-disc" },
                 React.createElement("li", null,
                     " Proficient in both game (5+ years) and web development (",
                     experience_web,
@@ -40,10 +41,6 @@ var IntroduceSection = function (_a) {
                     " My contribute: ",
                     React.createElement("a", { href: "https://packagist.org/packages/learntechtips/cakephp-bake-zidane", className: "font-bold text-white  pl-1 pr-2 bg-blue-600" }, "  packagist.org - learntechtips - cakephp-bake-zidane "),
                     " "))),
-        React.createElement("div", { className: 'ml-8' },
-            React.createElement("div", { className: "italic" },
-                "This source code is hosting on ",
-                React.createElement("a", { href: "https://vercel.com/" }, " vercel "),
-                ". Many thanks!!!"))));
+        React.createElement("div", null)));
 };
 exports["default"] = IntroduceSection;

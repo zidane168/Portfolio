@@ -40,10 +40,10 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
             <hr className="mt-[20px] mb-[20px]" style={{ borderColor: color }} /> 
           
             <div className="text-left">
-              <ul className="ml-6 list-disc">
-                <SlideInLeft> Technical Leader (Management with Flexible/Tough)  </SlideInLeft>  
-                <SlideInLeft> Fullstack developer (CakePHP/Twig/NestJS/ORM)  </SlideInLeft>   
-                <SlideInLeft> AutoGame Developer (C#, ASM, Inject Packet, Obfuscate)  </SlideInLeft>   
+              <ul className="ml-4 leading-6 list-disc">
+                <SlideInLeft> Technical Lead | Management with Flexible/Tough  </SlideInLeft>  
+                <SlideInLeft> Fullstack Developer | CakePHP/Twig/NestJS/ORM  </SlideInLeft>   
+                <SlideInLeft> AutoGame Developer | C#, ASM, Inject Packet, Obfuscate, Assembly  </SlideInLeft>   
               </ul>
             </div> 
             

@@ -5,8 +5,10 @@ const IntroduceSection = ( {color} : { color : string } ) => {
     return (
         <div className=""> 
             <div className="p-4 rounded-md shadow-lg">
-                Welcome everybody, I have around { currentYear } Years of Experience about web and auto game development
-                <ul className="ml-4 list-disc">
+                <div className="text-lg">
+                    Welcome everybody, I am Zidane, I have { currentYear } Years of Experience about web and auto game development
+                </div>
+                <ul className="mt-6 ml-6 leading-6 list-disc">
                     <li> Proficient in both game (5+ years) and web development ({ experience_web }+ years), starting from 2009. </li>
 
                     <li>
@@ -47,9 +49,7 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                    
                 </ul>  
             </div>
-            <div className='ml-8'> 
-                <div className="italic">This source code is hosting on <a href="https://vercel.com/"> vercel </a>. Many thanks!!! 
-            </div>
+            <div>  
             </div>
         </div>
     )

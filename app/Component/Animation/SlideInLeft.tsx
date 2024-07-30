@@ -9,7 +9,7 @@ const SlideInLeft = ({ children } : { children : string[] | JSX.Element | string
   }, [controls]);
 
   return ( 
-    <motion.li
+    <motion.li 
       initial={{ x: -100, opacity: 0 }}
       animate={controls}
       transition={{ duration: 0.5 }}

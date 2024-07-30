@@ -6,7 +6,7 @@ export default function SkillSection2( { color } : { color : string } ) {
     <div className="text-left">
        <TitleUI title="Skill Set" bgColor={ color } /> 
 
-       <div className="w-full">
+       <div className="w-full leading-6">
         <KeywordUI title="PHP/CakePHP/Twig/Queue Job/Cron/Pagination/Router/Gregwar-Captcha/Google map/Google reCAPTCHA"  />
         <KeywordUI title="MySQL/Postgres DB/MongoDB/Microsoft SQL"     />
         <KeywordUI title="HTML/CSS/LESS/Slider/Animation/WOW"     /> 

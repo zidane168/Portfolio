@@ -5,7 +5,7 @@ const LanguageSection = ({ color }: { color: string }) => {
   const minWidth: string = "160px";
 
   return (
-    <div className="text-left">
+    <div className="leading-6 text-left">
       <TitleUI title="Languages" bgColor={color} />
 
       <div className="flex flex-row justify-between lg:flex-col">
