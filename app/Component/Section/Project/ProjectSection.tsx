@@ -22,6 +22,32 @@ const ProjectSection = ({ color }: { color: string }) => {
       library: [
         { src: 'https://learn-tech-tips.blogspot.com/',  name: 'Link URL' },
       ]
+    },   
+
+    {
+      title: "BlockChain topic",
+      name: "This tutorial how to make a project for web3, and we go through Blockchain, how to make it with PHP language, how to create virtual current mining technology",
+      screenshot: [
+        { src: '/project/blockchain-2A.png' },
+        { src: '/project/blockchain-2B.png' },
+        { src: '/project/blockchain-2C.png' },
+      ],
+      description: [
+        "What is blockchain",
+        "Blockchain Technology - Using PHP develop Blockchain technology",  
+        "Loophples of the current Blockchain",  
+        "Create virtual currency mining technology",
+        "How to create own bitcoin virtual currency",
+        "Apply blockchain application in the life",
+      ],
+      library: [  
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/what-is-blockchain.html',  name: 'Link URL' },    
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/using-php-develop-blockchain-technology.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/loophples-of-the-current-blockchain.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/blockchain-technology-create-virtual-currency-mining-technology.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/blockchain-technology-how-to-create-own-bitcoin-virtual-currency.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2022/01/block-chain-application-in-the-life.html',  name: 'Link URL' },
+      ]
     },  
 
     {
@@ -259,6 +285,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       ],
       library: [  
         { src: 'https://github.com/zidane168/docker-file-for-rabbitmq-service',  name: '(Personal only)' }, 
+        { src: 'https://learn-tech-tips.blogspot.com/2023/07/how-to-use-docker-compose-to-set-up-a-rabbitmq-service.html', name: 'Link URL'}
       ]
     },  
 
