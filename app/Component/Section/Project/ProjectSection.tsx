@@ -6,6 +6,7 @@ const ProjectSection = ({ color }: { color: string }) => {
   const projects = [ 
  
     {
+      id: "webzonetechtips-blogs",
       title: "Webzone Tech Tips Blogs", 
       role: "Author's Technical blog <span class='bg-sky-600 text-white px-2' ><a class='underline' href='https://learn-tech-tips.blogspot.com/'>   https://learn-tech-tips.blogspot.com/ </a>  </span>  ",
       name: "Feel free to explore the blog at Learn-Tech-Tips for valuable insights and knowledge, This blog covers a wide range of web development topics, including Next.js, NestJS, CakePHP, and other frameworks. It delves into subjects like RabbitMQ, Apache Kafka, HTML, CSS, Photoshop, and Office 365. The blog aims to help readers build amazing websites using modern technologies and best practices",
@@ -25,6 +26,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     },   
 
     {
+      id: "blockchain-topic",
       title: "BlockChain topic",
       name: "This tutorial how to make a project for web3, and we go through Blockchain, how to make it with PHP language, how to create virtual current mining technology",
       screenshot: [
@@ -51,6 +53,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     },  
 
     {
+      id: "ecpark",
       title: "Ecpark",
       name: "Project for Crawling data and social login, manage  user's information, manage administrator information login, role, permissions",
       screenshot: [
@@ -76,6 +79,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       ],
     },
     {
+      id: "crystaljade",
       title: "Crystaljade",
       name: "Project for Dynamic Menu with dynamic branches",
       screenshot: [
@@ -101,6 +105,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     },
 
     {
+      id: "cityu",
       title: "Cityu",
       name: "Project for Booking (patient with pet and booking vet times, manage vet time, manage booking conflict), manage administrator information login, role, permissions, display customize Vet on Apps with dynamic config and sync data from Microsoft SQL Server to MySQL automatically",
       screenshot: [
@@ -129,6 +134,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     },
 
     {
+      id: "metrosouth",
       title: "Metrosouth",
       name: "Project for Booking, manage holiday booking, booking combined room, single room, rules refund, cancel, book by user and admin, calc expiry point rules, manage users, manage administrator",
       screenshot: [
@@ -149,6 +155,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
  
     {
+      id: "todo-listapp",
       title: "TodoListApp",
       name: "Project about management the Task list from user",
       video: "https://www.youtube.com/embed/Kwx1BUP1cxM?si=I9Q9_rFGeYXYYqjI",
@@ -165,6 +172,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
 
     {
+      id: "dragon-fire",
       title: "DragonFire",
       name: "Project about management the inventory, the client and user, project about E-commerce, allow admin can configuration and save keyboards to client, management blog, management promotion rules",
       screenshot: [
@@ -185,6 +193,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
 
     {
+      id: "cidcKids",
       title: "CidcKids",
       name: "Project for management Courses, User, Staff(Teacher), User(Student), manage Annual leave for student",
       screenshot: [
@@ -208,6 +217,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
 
     {
+      id: "ibmsm",
       title: "IBMSM",
       name: "Project about divination, destiny, design sales course and share Youtube video link if already register, and formula for calculating destiny",
       screenshot: [
@@ -229,6 +239,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
 
     {
+      id: "chunghing",
       title: "ChungHing",
       name: "Project about management the sales, the client and the product",
       screenshot: [
@@ -244,6 +255,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     },  
 
     {
+      id: "nextjs-and-prima",
       title: "NextJS and Prisma full structure example",
       name: "Project about management MySQL with Prisma schema, demo CURD, Administrator Permissions",
       screenshot: [
@@ -262,6 +274,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
 
     {
+      id: "docker-nextjs-template",
       title: "Docker structure for NextJS template",
       name: "structure detail for docker NextJS template",
       screenshot: [
@@ -281,6 +294,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
 
     {
+      id: "docker-rabbitmq-template",
       title: "Docker structure for RabbitMQ Service",
       name: "structure detail for RabbitMQ Service",
       screenshot: [
@@ -301,6 +315,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
 
     {
+      id: "nextjs-captcha-api",
       title: "NextJS Captcha simple API",
       name: "The ideas make a simple Captcha API. The project with simple Captcha instead of use Google Captcha, we can use by ourself",
       screenshot: [
@@ -316,6 +331,26 @@ const ProjectSection = ({ color }: { color: string }) => {
     },   
 
     {
+      id: "gp-barber-portal",
+      title: "BARBER",  
+      name: "Salary calc system, payroll system, Shop, Category Service management",
+      screenshot: [
+        { src: '/project/gp-bartner-1.png' },
+        { src: '/project/gp-bartner-2.png' }, 
+      ],
+      description: [
+        "PHP - CakePHP 4+",
+        "PHP Server side: Restful API",
+        "CURD, Customize View, Responsive, API",
+        "PHP Webpage: Bootstrap 4+, CakePHP, CSS, JS, LESS",    
+      ],
+      library: [
+        { src: '',  name: '' },
+      ]
+    },  
+
+    {
+      id: "vtv-team-autoplay",
       title: "VTV Team AutoPlay", 
       role: "Co-Founder at <span class='bg-sky-600 text-white px-2 '> <a href='https://tieungaoauto.com'> https://tieungaoauto.com </a> </span>",
       name: "AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
@@ -361,8 +396,7 @@ const ProjectSection = ({ color }: { color: string }) => {
                 { 
                 
                 value['video'] ?  
-                  <div className="p-2 rounded-lg">
-                    
+                  <div className="p-2 rounded-lg"> 
 
                     <iframe width="300" height="300" src={ value['video'] } title="NextJS NextJS ToDoApp" 
                         frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -377,7 +411,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
                 }
                 <div className="md:w-[70%]">
-                    <TitleUI  title={ value['title'] } bgColor={ color } /> 
+                    <TitleUI  title={ value['title'] } bgColor={ color } id={ value['key'] }/> 
                     <div className="px-4">
                       <div dangerouslySetInnerHTML={{ __html: value['role'] || '' }}></div>
                       <div> { value['name'] } </div>

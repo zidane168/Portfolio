@@ -1,4 +1,12 @@
-export default function TitleUI({ title, bgColor }  : { title: string, bgColor: string } ) {
+
+type TitleUI = {
+    title: string,
+    bgColor: string, 
+    id?: string,
+}
+
+
+export default function TitleUI({ title, bgColor, id }  : TitleUI ) {
   
     return (
 
@@ -8,7 +16,7 @@ export default function TitleUI({ title, bgColor }  : { title: string, bgColor: 
         // #e74c3c (Alizarin)
         // #d35400 (pumpkin)
         // #2ecc71 (Emerald)
-        <div className={`font-bold uppercase w-full rounded-full p-2 text-white text-center mb-[20px]`}  style={{ backgroundColor: bgColor  }} >
+        <div id={ id || title } className={`font-bold uppercase w-full rounded-full p-2 text-white text-center mb-[20px]`}  style={{ backgroundColor: bgColor  }} >
             { title } 
         </div>
     )
