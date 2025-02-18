@@ -22,32 +22,33 @@ const ProjectSection = ({ color }: { color: string }) => {
       library: [
         { src: 'https://learn-tech-tips.blogspot.com/',  name: 'Link URL' },
       ]
-    },  
+    },   
 
     {
-      title: "VTV Team AutoPlay", 
-      role: "Co-Founder at <span class='bg-sky-600 text-white px-2 '> <a href='https://tieungaoauto.com'> https://tieungaoauto.com </a> </span>",
-      name: "AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
+      title: "BlockChain topic",
+      name: "This tutorial how to make a project for web3, and we go through Blockchain, how to make it with PHP language, how to create virtual current mining technology",
       screenshot: [
-        { src: '/project/vtv-team-1.png' },
-        { src: '/project/vtv-team-2.png' }, 
+        { src: '/project/blockchain-2A.png' },
+        { src: '/project/blockchain-2B.png' },
+        { src: '/project/blockchain-2C.png' },
       ],
       description: [
-        "PHP - MySQL - C#, DotNet framework 4.7.2",
-        "PHP Server side: Restful API",
-        "CURD, Customize View, Responsive, API",
-        "PHP Webpage: TailwindCSS, CakePHP, CSS, JS, LESS",
-        "Inject DLL, Send Packet, ASM Injection",   
-        "RabbitMQ, Ratchet Server",
-        "Threading, Async Await, Task, Task.Delay, API, Socket",
-        "JWT multiple device login design",
+        "What is blockchain",
+        "Blockchain Technology - Using PHP develop Blockchain technology",  
+        "Loophples of the current Blockchain",  
+        "Create virtual currency mining technology",
+        "How to create own bitcoin virtual currency",
+        "Apply blockchain application in the life",
       ],
-      library: [
-        { src: 'https://tieungaoauto.com/',  name: 'Link URL' },
+      library: [  
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/what-is-blockchain.html',  name: 'Link URL' },    
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/using-php-develop-blockchain-technology.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/loophples-of-the-current-blockchain.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/blockchain-technology-create-virtual-currency-mining-technology.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2021/12/blockchain-technology-how-to-create-own-bitcoin-virtual-currency.html',  name: 'Link URL' },
+        { src: 'https://learn-tech-tips.blogspot.com/2022/01/block-chain-application-in-the-life.html',  name: 'Link URL' },
       ]
     },  
-
-    
 
     {
       title: "Ecpark",
@@ -101,7 +102,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
     {
       title: "Cityu",
-      name: "Project for Booking (patient with pet and booking vet times, manage vet time, manage booking conflict), manage administrator information login, role, permissions Sync data from MicrosoftSQL Server to MySQL",
+      name: "Project for Booking (patient with pet and booking vet times, manage vet time, manage booking conflict), manage administrator information login, role, permissions, display customize Vet on Apps with dynamic config and sync data from Microsoft SQL Server to MySQL automatically",
       screenshot: [
         { src: '/project/cityu-1.png' },
         { src: '/project/cityu-2.png' }, 
@@ -123,7 +124,7 @@ const ProjectSection = ({ color }: { color: string }) => {
       library: [
         { src: '/library/cityu-composer-be.json',  name: 'BackEnd' },
         { src: '/library/cityu-docker-compose.yaml',  name: 'Docker' },
-        { src: 'https://app.diagrams.net/#G1zGEwtQrTvM2ze49UEr_7_MY3b5NDHWD4#%7B%22pageId%22%3A%22prtHgNgQTEPvFCAcTncT%22%7D', name: 'Structure(Personal)'},
+        { src: 'https://learn-tech-tips.blogspot.com/2015/06/%20how-to-monitor-data-changes-in-sql-server-tables-with-triggers.html', name: 'Structure(Personal)'},
       ]
     },
 
@@ -207,7 +208,7 @@ const ProjectSection = ({ color }: { color: string }) => {
     }, 
 
     {
-      title: "Ibmsm",
+      title: "IBMSM",
       name: "Project about divination, destiny, design sales course and share Youtube video link if already register, and formula for calculating destiny",
       screenshot: [
         { src: '/project/ibmsm-1.png' },
@@ -241,6 +242,104 @@ const ProjectSection = ({ color }: { color: string }) => {
       library: [  
       ]
     },  
+
+    {
+      title: "NextJS and Prisma full structure example",
+      name: "Project about management MySQL with Prisma schema, demo CURD, Administrator Permissions",
+      screenshot: [
+        { src: '/project/nestjs-prisma.png' },  
+        { src: '/project/nestjs-prisma.png' },  
+      ],
+      description: [
+        "MySQL 8.0",
+        "nestjs/core 10.0.0", 
+        "Prisma ^5.22.0", 
+      ],
+      library: [  
+        { src: '/library/nestjs-prisma-be-package.json',  name: 'BackEnd' }, 
+      ]
+    },  
+
+
+    {
+      title: "Docker structure for NextJS template",
+      name: "structure detail for docker NextJS template",
+      screenshot: [
+        { src: '/project/docker.png' },   
+        { src: '/project/docker.png' },   
+      ],
+      description: [
+        "Node16",
+        "Dockerfile",  
+        "docker-compose.yml",  
+        "Using Docker file to build image, Docker compose to run container",
+      ],
+      library: [  
+        { src: 'https://github.com/zidane168/docker-file-for-nextjs-template',  name: '(Personal only)' }, 
+      ]
+    },  
+
+
+    {
+      title: "Docker structure for RabbitMQ Service",
+      name: "structure detail for RabbitMQ Service",
+      screenshot: [
+        { src: '/project/docker.png' },   
+        { src: '/project/docker.png' },   
+      ],
+      description: [
+        "Node16",
+        "Dockerfile",  
+        "docker-compose.yml",  
+        "Using Docker file to build image, Docker compose to run container",
+      ],
+      library: [  
+        { src: 'https://github.com/zidane168/docker-file-for-rabbitmq-service',  name: '(Personal only)' }, 
+        { src: 'https://learn-tech-tips.blogspot.com/2023/07/how-to-use-docker-compose-to-set-up-a-rabbitmq-service.html', name: 'Link URL'}
+      ]
+    },  
+
+
+    {
+      title: "NextJS Captcha simple API",
+      name: "The ideas make a simple Captcha API. The project with simple Captcha instead of use Google Captcha, we can use by ourself",
+      screenshot: [
+        { src: '/project/captcha.png' },  
+        { src: '/project/captcha2.png' },  
+      ],
+      description: [
+        "NestJS demo",
+      ],
+      library: [  
+        { src: ' https://github.com/zidane168/nextjs-simple-captcha-demo',  name: '(Personal only)' }, 
+      ]
+    },   
+
+    {
+      title: "VTV Team AutoPlay", 
+      role: "Co-Founder at <span class='bg-sky-600 text-white px-2 '> <a href='https://tieungaoauto.com'> https://tieungaoauto.com </a> </span>",
+      name: "AutoPlay for online Game, SendPackage ASM, InjectDLL, packet, manage user, manage license, manage admin",
+      screenshot: [
+        { src: '/project/vtv-team-1.png' },
+        { src: '/project/vtv-team-2.png' }, 
+      ],
+      description: [
+        "PHP - MySQL - C#, DotNet framework 4.7.2",
+        "PHP Server side: Restful API",
+        "CURD, Customize View, Responsive, API",
+        "PHP Webpage: TailwindCSS, CakePHP, CSS, JS, LESS",
+        "Inject DLL, Send Packet, ASM Injection",   
+        "RabbitMQ, Ratchet Server",
+        "Threading, Async Await, Task, Task.Delay, API, Socket",
+        "JWT multiple device login design",
+      ],
+      library: [
+        { src: 'https://tieungaoauto.com/',  name: 'Link URL' },
+      ]
+    },  
+
+    
+
   ]; 
 
   return (

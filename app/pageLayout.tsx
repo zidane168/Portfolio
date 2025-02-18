@@ -14,7 +14,7 @@ interface PageLayoutProps {
 }
 
 const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
-  const color = useStore((state: any) => state.color);  
+  const color = useStore((state: any) => state.color);  // using Store/store.tsx
   const date = new Date();
   
   return (
