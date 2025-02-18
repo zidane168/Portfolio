@@ -81,6 +81,11 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: '/project/crystaljade-1.png' },
         { src: '/project/crystaljade-2.png' },
         { src: '/project/crystaljade-3.png' },
+        { src: '/project/crystaljade-4.png' },
+        { src: '/project/crystaljade-5.png' },
+        { src: '/project/crystaljade-6.png' },
+        { src: '/project/crystaljade-7.png' },
+        { src: '/project/crystaljade-8.png' },
       ],
       description: [
         "PHP - MySQL 8.0 - FireBase - Google Map",
@@ -100,6 +105,11 @@ const ProjectSection = ({ color }: { color: string }) => {
       screenshot: [
         { src: '/project/cityu-1.png' },
         { src: '/project/cityu-2.png' }, 
+        { src: '/project/cityu-3.png' },
+        { src: '/project/cityu-4.png' }, 
+        { src: '/project/cityu-5.png' },
+        { src: '/project/cityu-6.png' }, 
+        { src: '/project/cityu-7.png' }, 
       ],
       description: [
         "PHP - MySQL 5.7 - MicrosoftSQL Server - Cronjob - Trigger Event - Sync Data - RabbitMQ",
