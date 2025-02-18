@@ -411,7 +411,7 @@ const ProjectSection = ({ color }: { color: string }) => {
 
                 }
                 <div className="md:w-[70%]">
-                    <TitleUI  title={ value['title'] } bgColor={ color } id={ value['key'] }/> 
+                    <TitleUI  title={ value['title'] } bgColor={ color } id={ value['id'] }/> 
                     <div className="px-4">
                       <div dangerouslySetInnerHTML={{ __html: value['role'] || '' }}></div>
                       <div> { value['name'] } </div>
