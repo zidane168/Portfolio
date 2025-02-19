@@ -19,7 +19,7 @@ export default function SocialSection() {
       </div> 
  
       <div className="transition hover:scale-125">
-        <Link href="https://www.facebook.com/learntechtips168/" target="_blank">
+        <Link href="https://www.facebook.com/webzonetechtipszidane" target="_blank">
           <Image
             src="/facebook.webp"
             alt="fb"
@@ -80,7 +80,7 @@ export default function SocialSection() {
         </Link>
       </div>
       <div className="transition hover:scale-125">
-        <Link href="https://www.youtube.com/@learntechtips3434" target="_blank">
+        <Link href="https://www.youtube.com/@webzonetechtips" target="_blank">
           <Image
             src="/youtube.webp"
             alt="Youtube"

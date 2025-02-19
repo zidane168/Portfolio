@@ -17,7 +17,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
   const color = useStore((state: any) => state.color);  // using Store/store.tsx
   const date = new Date();
 
-  // button 
+  // create state for a new button 
   const [ showScrollToTop, setShowScrollToTop ] = useState(false);
 
   const handleScroll = () => {
@@ -94,7 +94,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
         {showScrollToTop && (
           <button
             onClick={ scrollToTop }
-            className={ `fixed p-3 text-white transition rounded-full shadow-lg bottom-5 right-5 hover:scale-125 ` }
+            className={ `fixed p-3 text-white transition rounded-full shadow-lg bottom-5 right-5 hover:scale-125` }
             style={{ backgroundColor: color }}
           >
             Top
