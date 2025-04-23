@@ -56,6 +56,11 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
                 height={150}
               />
             </div>
+
+            <div className="underline transition hover:scale-125" >
+              <Link target="_blank" href="https://san-pham-khuyen-mai.vercel.app/"> Affiliate Product </Link> 
+            </div>
+            
             <div className="mt-[10px]">
               <TitleUI title="LY HUU VI" bgColor={color} /> 
             </div>

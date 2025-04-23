@@ -1,6 +1,8 @@
 const IntroduceSection = ( {color} : { color : string } ) => { 
     let currentYear = new Date().getFullYear() - 2009;
     let experience_web = currentYear - 5;
+    let experience_management = currentYear - 10;
+    let aws_experience_management = currentYear - 14;
 
     return (
         <div className=""> 
@@ -9,7 +11,9 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                     Welcome everybody, I am Zidane, I have { currentYear } Years of Experience about web and auto game development
                 </div>
                 <ul className="mt-6 ml-6 leading-6 list-disc">
-                    <li> Proficient in both game (5+ years) and web development ({ experience_web }+ years), starting from 2009. </li>
+                    <li> Over ({ experience_web }+ years) in web development. </li>
+                    <li> Over ({ experience_management }+ years) in team, personal management. </li>
+                    <li> Over ({ aws_experience_management }+ years) in AWS, DevOps, VPS, Cyber Panel, DDEV, ngrok </li>
 
                     <li>
                         I wear two hats in my role: Solution Architect and Software Architect. 
@@ -28,13 +32,13 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                         RabbitMQ initialization, and efficient caching mechanisms, ready for immediate deployment.
                         <span className={ `font-bold text-white  pl-1 pr-2 bg-blue-600` } >It's designed for effortless scalability and seamless integration of new features. </span>
                     </li>
-                    <li> Apply AI/ChatGPT for speed up works </li>
+                    <li> Apply AI/ChatGPT (prompt) for speed up daily works </li>
                     <li> Passionate about learning and implementing cutting-edge technologies, with a knack for enhancing existing frameworks. </li>
                     <li> Skilled in client engagement and streamlining app development processes to conserve time and resources. </li>
                     <li> Strong analytical abilities with advanced backend expertise and frontend proficiency.</li>
                     <li> Versed in Aliyun Cloud Services, including ECS and RDS (PostgreSQL), and adept at VPS setup using Nginx, IIS, and Apache. </li>
-                    <li> Database management experience with MySQL, SQL Server, PostgreSQL, and TypeORM. </li>
-                    <li> Competent in Docker, PHP (especially CakePHP), NodeJS/NestJS, .NET C# (4.5), ASP.NET, Webservice, C++ 11, and Lua scripting. </li>
+                    <li> Database management experience with MySQL, SQL Server, PostgreSQL, MongoDB in TypeORM, Prisma </li>
+                    <li> Competent in Docker, PHP (especially CakePHP), NodeJS/NestJS, .NET C# (4.5), ASP.NET, Webservice, and Lua scripting. </li>
                     <li> Frontend development skills include HTML, CSS (TailwindCSS, Bootstrap), JavaScript ES6, jQuery, and NextJS. </li>
                     <li> Utilizes Portainer for Docker management and is proficient in a variety of technologies such as Restful API, and multi-threading. </li>
                     <li> Leadership experience in managing and mentoring a team.</li>
