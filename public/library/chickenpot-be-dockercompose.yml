@@ -1,0 +1,32 @@
+version: '3'
+services:
+    chickenpot-takeaway-api:
+        env_file:
+            - ./app/.env.production
+        networks:
+            - dev-vn-networks
+        container_name: chickenpot-takeaway-api
+        ports:
+          - 8274:3000
+        volumes:
+            - ./app/logs:/app/logs
+            - ./app/public/docs:/app/public/docs
+            - ./app/public/uploads:/app/public/uploads
+        restart: always
+        image: chickenpot-takeaway-api-img:1.0.0
+        labels:
+            - "traefik.docker.network=dev-vn-networks"
+            - "traefik.enable=true"
+            - "traefik.basic.frontend.rule=Host:chickenpot-takeaway-api.com"
+            - "traefik.basic.port=3000"
+            - "traefik.basic.protocol=http"
+        external_links:
+            - mysql:mysql-5.7
+        deploy:
+            resources:
+                limits:
+                    cpus: '0.5'
+                    memory: 512M
+networks:
+    dev-vn-networks:
+        external: true

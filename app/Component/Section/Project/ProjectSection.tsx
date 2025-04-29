@@ -3,8 +3,32 @@ import TitleUI from "../../UI/TitleUI";
 import ImageSliderUI from "../../UI/ImageSliderUI"; 
  
 const ProjectSection = ({ color }: { color: string }) => {
-  const projects = [ 
- 
+  const projects = [  
+    {
+      id: "ecommerce",
+      title: "Ecommerce",  
+      name: "Project with cart, list products, list food, takeaway, login, register member",
+      screenshot: [
+        { src: '/project/chicken-pot-1.png' },
+        { src: '/project/chicken-pot-2.png' },
+        { src: '/project/chicken-pot-3.png' },
+        { src: '/project/chicken-pot-4.png' },
+        { src: '/project/chicken-pot-5.png' },
+        { src: '/project/chicken-pot-6.png' },
+      ],
+      description: [
+        "NestJS - Prisma - MySQL - NextJS", 
+        "CURD, Customize View, Responsive, API, Swagger", 
+      ], 
+      library: [
+        { src: '/library/chickenpot-be-dockercompose.yml',  name: 'Docker Compose (BE)' },
+        { src: '/library/chickenpot-be-dockerfile',  name: 'DockerFile (BE)' },
+        { src: '/library/chickenpot-be-package.json',  name: 'Package.json' },
+        { src: '/library/chickenpot-fe-dockercompose.yml',  name: 'Docker Compose (FE)' },
+        { src: '/library/chickenpot-fe-dockerfile',  name: 'DockerFile (FE)' },
+      ], 
+    },   
+
     {
       id: "webzonetechtips-blogs",
       title: "Webzone Tech Tips Blogs", 

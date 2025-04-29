@@ -1,0 +1,28 @@
+# Finally, build the production image with minimal footprint
+FROM node:20-alpine AS base
+ENV NODE_ENV=production
+ENV HTTP_HOST=0.0.0.0
+RUN apk add --no-cache openssl curl yarn
+
+RUN mkdir /app
+WORKDIR /app
+COPY ./app/ .
+COPY ./app/package.json ./app/yarn.lock ./
+RUN yarn global add @nestjs/cli
+RUN yarn install && yarn cache clean && yarn build
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nestjs
+
+
+RUN mkdir -p logs \
+ && mkdir -p public/docs \
+ && mkdir -p public/uploads/images \
+ && mkdir -p public/uploads/pdfs \
+ && mkdir -p public/uploads/videos \
+ && chown nestjs:nodejs logs public/docs public/uploads \
+ && chmod +x /app/*.sh 
+EXPOSE 3000
+
+CMD ["yarn", "start:prod"] 
+
