@@ -40,8 +40,6 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
   }, [])
  
   return (
-     
-   
       <div className={ `p-[20px] border-[2px] rounded-lg m-[20px] `} style={ { borderColor: color, boxShadow: `10px 10px 100px ${color}` } } >
 
         <div className="text-sm flex flex-col space-y-[20px] lg:flex-row lg:space-x-[20px] h-full">

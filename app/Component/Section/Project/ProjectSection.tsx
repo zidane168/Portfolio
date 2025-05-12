@@ -132,6 +132,22 @@ const ProjectSection = ({ color }: { color: string }) => {
       id: "cityu",
       title: "Cityu",
       name: "Project for Booking (patient with pet and booking vet times, manage vet time, manage booking conflict), manage administrator information login, role, permissions, display customize Vet on Apps with dynamic config and sync data from Microsoft SQL Server to MySQL automatically",
+      challenges: [
+        "Phone lines are always jammed during peak hours",
+        "Difficulty making and managing reservations",
+        "Checking and managing appointment status is difficult" 
+      ],
+      objectives: [
+        "Establish an online reservation system",
+        "Help pet owners manage, reschedule and withdraw their booking easily",
+        "Prevent double bookings and misinformation"
+      ],
+      results: [
+        "User friendly interface enables clear scheduling and communication",
+        "Facilitated real-time information exchange",
+        "Resolve busy phone lines and misinformation. Phone line usage and booking errors were deeply reduced by 80%",
+        "Pet owners can easily manage their appointments and view the pet history from anywhere, 24/7. Simple management and less wait time improve customer satisfaction and increase repeat business by 75%",
+      ],
       screenshot: [
         { src: '/project/cityu-1.png' },
         { src: '/project/cityu-2.png' }, 
@@ -420,18 +436,22 @@ const ProjectSection = ({ color }: { color: string }) => {
                 { 
                 
                 value['video'] ?  
-                  <div className="p-2 rounded-lg"> 
 
-                    <iframe width="300" height="300" src={ value['video'] } title="NextJS NextJS ToDoApp" 
-                        frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen></iframe>
+                  <div className="flex items-center ">
+                    <div className="p-2 rounded-lg h-fit"> 
+
+                      <iframe width="300" height="300" src={ value['video'] } title="NextJS NextJS ToDoApp" 
+                          frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowFullScreen></iframe>
+                    </div>  
                   </div>  
-                
                   : 
                   
-                  <div className="p-2 rounded-lg" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
-                    <ImageSliderUI  src={ src } color={ color } />
-                  </div>  
+                  <div className="flex items-center ">
+                    <div className="p-2 rounded-lg h-fit" style={ { borderColor: color, boxShadow: `2px 2px 10px ${color}` } } > 
+                      <ImageSliderUI  src={ src } color={ color } />
+                    </div>  
+                  </div>
 
                 }
                 <div className="md:w-[70%]">
@@ -448,6 +468,40 @@ const ProjectSection = ({ color }: { color: string }) => {
                               }) 
                           }  
                       </ul>  
+                     
+                      { value['challenges'] && <div className="font-bold text-red-800 mt-[10px] underline text-lg">  Challenges  </div> }
+                      <ul className="ml-8 list-disc">
+                        { 
+                           value['challenges'] &&  value['challenges'].map( (ch, index) => {
+                            return (
+                              <li key={ index } > { ch } </li>
+                            )
+                          } )
+                        }
+                      </ul>  
+
+                      { value['objectives'] && <div className="font-bold text-red-800 mt-[10px] underline text-lg"> Objectives </div> }
+                      <ul className="ml-8 list-disc">
+                        { 
+                           value['objectives'] &&  value['objectives'].map( (ch, index) => {
+                            return (
+                              <li key={ index } > { ch } </li>
+                            )
+                          } )
+                        }
+                      </ul>  
+
+                      { value['results'] && <div className="font-bold text-red-800 mt-[10px] underline text-lg"> Results </div> }
+                      <ul className="ml-8 list-disc">
+                        { 
+                           value['results'] &&  value['results'].map( (ch, index) => {
+                            return (
+                              <li key={ index } > { ch } </li>
+                            )
+                          } )
+                        }
+                      </ul>  
+                      
                       <div className="flex justify-around">
                           {  (value['library'].length > 0)  ? ( <div> --- Here are details: </div>) : null }
 
