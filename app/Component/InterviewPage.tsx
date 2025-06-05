@@ -21,7 +21,9 @@ const InterviewPage: React.FC = () => {
                 <ul className="ml-6 list-disc">
                     <li> Yes, definitely. One of the most challenging projects I worked on was the CityU project</li>
                     <li> CityU is a healthcare platform designed for doctors and customer, helping them manage quest wellness more effectively</li>
-                    <li> In this project, we needed to synchronize data between two systems, from an old mic</li>
+                    <li> In this project, we needed to synchronize data between two systems — from an old Microsoft SQL Server database to a new MySQL database.</li>
+                    <li> To solve this, we used RabbitMQ to create a real-time data pipeline that synced data from the old system to our new one.</li>
+                    <li> This allowed us to integrate their product with ours seamlessly.</li>
                 </ul>
             </div>
         </div>
