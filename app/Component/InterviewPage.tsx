@@ -11,7 +11,8 @@ const InterviewPage: React.FC = () => {
 
                 <h3  style={{ backgroundColor: color  }} className="rounded-md px-2 text-[25px] font-bold"> ✅ Can you introduce yourself? </h3>
                 <ul className="ml-6 list-disc">
-                    <li> Hello sir, I am Zidane. I have over 10 years of experiences working on web products. Currently, I am working as both a solution architect and a software architect.</li>
+                    <li> Hello sir, I am Zidane. I have over 10 years of experiences working on web products. </li>
+                    <li> Currently, I am working as both a solution architect and a software architect.</li>
                     <li> As a solution architect, I design high level solutions and provide technical recommendations to the team </li>
                     <li> As a software architect, I help the team implement those solutions and turn them into reality </li>
                 </ul> 
