@@ -5,16 +5,16 @@
 # -- --
 
 # env
-export HOST1="db.goz247.com"
+export HOST1="db.goz247xxx.com"
 export USER_NAME1="gozwebdev"
 export PORT1=
-export PASSWORD1="GozProjectWeb@2025"
+export PASSWORD1=""
 export DATABASE1="gozridebooking"   #"grab-goz"     # DB He thống
 
 export HOST2="0.0.0.0"
-export USER_NAME2="root"
+export USER_NAME2=""
 export PORT2=3306
-export PASSWORD2="1234567890"
+export PASSWORD2=""
 export DATABASE2="grab-goz-admin"
 
 # config/app.php 
