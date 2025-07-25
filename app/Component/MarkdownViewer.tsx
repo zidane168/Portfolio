@@ -3,22 +3,22 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-// interface Props {
-//     filePath: string;
-// }
+interface Props {
+    filePath: string;
+}
 
-// const MarkdownViewer: React.FC<Props> = ( ) => {
-const MarkdownViewer: React.FC = ( ) => {
+const MarkdownViewer = ({ filePath }: Props) => { 
 
     const [content, setMarkdownContent] = useState<string>('')
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string>('');
+    // const [path, setPath] = useState<string>(filePath)
 
     useEffect(() => {
         // const filePath = path.join(process.cwd(), 'public/code-snippet', 'CODE_SNIPPET_CakePHP4_SOCKET_RABBITMQ.md'); // Path to your Markdown file
-
-        const fetchMarkdown = async () => {
-            const filePath = ('/code-snippet/CODE_SNIPPET_CakePHP4_SOCKET_RABBITMQ.md'); // Path to your Markdown file
+ 
+        const fetchMarkdown = async ( ) => {
+           //  filePath = ('/code-snippet/CODE_SNIPPET_CakePHP4_SOCKET_RABBITMQ.md'); // Path to your Markdown file
 
             try {
                 const response = await fetch(filePath); // Adjust the path if needed

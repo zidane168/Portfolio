@@ -6,8 +6,7 @@ import SocialSection from "./Component/Section/Social/SocialSection";
 import SkillSection2 from "./Component/Section/Skill/SkillSection2"; 
 import SlideInLeft from "./Component/Animation/SlideInLeft"; 
 import useStore from './Store/store';
-import Link from 'next/link';
-import Head from 'next/head';
+import Link from 'next/link'; 
 
 interface PageLayoutProps { 
   children: React.ReactNode;
@@ -85,6 +84,15 @@ const PageLayout: React.FC<PageLayoutProps> = ({  children }) => {
             </div>
             <div>
               Copyright @{ date.getFullYear() } 
+            </div>
+
+            <hr className='mt-4 mb-4' />
+            <div className='font-bold text-left'> CODE SNIPPET </div>
+            <div className="px-2 py-2 mt-2 text-left border rounded-md">
+              <ul className='flex flex-col gap-2 px-2 list-disc '> 
+                <li className='hover:underline'> <Link href={"/code-snippet/CakePHP-SOCKET-RABBITMQ"}> RabbitMQ, Ratchet Server, CakePHP </Link> </li> 
+                <li className='hover:underline'> <Link href={"/code-snippet/CakePHP-MULTIPLE-DB"}> CakePHP Multiple DB </Link> </li> 
+              </ul>
             </div>
           </div> 
 
