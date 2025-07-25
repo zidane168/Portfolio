@@ -3,11 +3,12 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-interface Props {
-    filePath: string;
-}
+// interface Props {
+//     filePath: string;
+// }
 
-const MarkdownViewer: React.FC<Props> = ({ filePath }) => {
+// const MarkdownViewer: React.FC<Props> = ( ) => {
+const MarkdownViewer: React.FC = ( ) => {
 
     const [content, setMarkdownContent] = useState<string>('')
     const [loading, setLoading] = useState<boolean>(true);
