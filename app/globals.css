@@ -6,3 +6,15 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* styles.css */
+.markdown {
+    white-space: pre-wrap; /* Preserve line breaks and spaces */
+    font-family: 'Courier New', Courier, monospace; /* Optional: use a monospace font */
+}
+
+.markdown code {
+    background-color: #f5f5f5; /* Optional: style for code blocks */
+    padding: 2px 4px;
+    border-radius: 4px;
+}
