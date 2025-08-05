@@ -6,8 +6,8 @@ const ProjectSection = ({ color }: { color: string }) => {
   const projects = [  
     {
       id: "ecommerce",
-      title: "Ecommerce",  
-      name: "Project with cart, list products, list food, takeaway, login, register member",
+      title: "Fintech - FNB Food Ordering",  
+      name: "The project includes features for a cart, product listings, food listings, takeaway options, member login, and registration, all focused on FNB food ordering.",
       screenshot: [
         { src: '/project/chicken-pot-1.png' },
         { src: '/project/chicken-pot-2.png' },
@@ -15,6 +15,29 @@ const ProjectSection = ({ color }: { color: string }) => {
         { src: '/project/chicken-pot-4.png' },
         { src: '/project/chicken-pot-5.png' },
         { src: '/project/chicken-pot-6.png' },
+      ],
+      description: [
+        "NestJS - Prisma - MySQL - NextJS", 
+        "CURD, Customize View, Responsive, API, Swagger", 
+      ], 
+      library: [
+        { src: '/library/chickenpot-be-dockercompose.yml',  name: 'Docker Compose (BE)' },
+        { src: '/library/chickenpot-be-dockerfile',  name: 'DockerFile (BE)' },
+        { src: '/library/chickenpot-be-package.json',  name: 'Package.json' },
+        { src: '/library/chickenpot-fe-dockercompose.yml',  name: 'Docker Compose (FE)' },
+        { src: '/library/chickenpot-fe-dockerfile',  name: 'DockerFile (FE)' },
+      ], 
+    },   
+
+    {
+      id: "global-link",
+      title: "Member Coupon Management",  
+      name: "The project includes features for management in coupon, payment, coupon expiry management, coupon used and schema point",
+      screenshot: [
+        { src: '/project/global-link-1.png' },
+        { src: '/project/global-link-2.png' },
+        { src: '/project/global-link-3.png' },
+        { src: '/project/global-link-4.png' }, 
       ],
       description: [
         "NestJS - Prisma - MySQL - NextJS", 

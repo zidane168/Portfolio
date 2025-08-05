@@ -21,6 +21,10 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                         Then, as a Software Architect, I guide the team in turning those solutions into reality. 
                         It’s a mix of vision and hands-on execution!
                     </li>
+
+                    <li>
+                        I have experience in various domains, including POS, retail and fintech
+                    </li>
                     <li> 
                         I have developed a  <span className={ `font-bold text-white  pl-2 pr-2 bg-blue-600` }  >comprehensive CMS-ready base template source code(include Logic + API + Database + MessageQueue + Caching + UI)</span>, meticulously designed with a full suite of UI components 
                         including advanced upload/download capabilities, export functions, scheduling tools, date pickers, sophisticated combo boxes, 
