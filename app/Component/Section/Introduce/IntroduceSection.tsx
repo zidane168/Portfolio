@@ -22,7 +22,7 @@ const IntroduceSection = ( {color} : { color : string } ) => {
                         It’s a mix of vision and hands-on execution!
                     </li>
 
-                    <li>
+                    <li className="font-bold text-red-600">
                         I have experience in various domains, including POS, retail and fintech
                     </li>
                     <li> 
